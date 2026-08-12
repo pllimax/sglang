@@ -1,0 +1,70 @@
+.github/workflows/nightly-test-npu-e2e-multi-node.yml
+  s_16c23c9253290c::t_2709306fc513e5 162
+  s_16c23c9253290c::t_fbd088bf4bffe2 160-161
+  s_16c23c9253290c::t_a5dbceec2a7c4a 163-165
+python/sglang/test/ascend/e2e/k8s_single.yaml.jinja2
+  s_16c23c9253290c::t_834a78951dd59e 55
+  s_16c23c9253290c::t_bcc84ac6a1933a 54,56-57
+.github/workflows/full-test-npu.yml
+  s_16c23c9253290c::t_381e8a8b673764 96,100-110
+  s_16c23c9253290c::t_0ba7563fb8a018 111
+  s_16c23c9253290c::t_49c5631ea9113a 93-95
+  s_16c23c9253290c::t_32a52e29941964 97-99
+  s_16c23c9253290c::t_b5ba0d8c2e799b 112
+.github/workflows/nightly-test-npu.yml
+  s_16c23c9253290c::t_6d1d15e0a87b6a 229
+  s_16c23c9253290c::t_e26b39261482c6 181
+  s_16c23c9253290c::t_780ab7d96359e2 242
+  s_16c23c9253290c::t_ca4d93ab42df5c 279
+  s_16c23c9253290c::t_05bc5e019166cb 413
+  s_16c23c9253290c::t_f593d8469fc59d 339
+  s_16c23c9253290c::t_782eeb37d8aaea 287
+  s_16c23c9253290c::t_290ed7553b20ce 313
+  s_16c23c9253290c::t_d12aef5f843ba3 331
+  s_16c23c9253290c::t_5fc78385f9a2f2 359
+  s_16c23c9253290c::t_e4851bd5d5a48b 134-146
+  s_16c23c9253290c::t_9ddf9673d54e63 296
+  s_16c23c9253290c::t_c00cdda402987d 305
+  s_16c23c9253290c::t_fb050c76390ece 344
+  s_16c23c9253290c::t_ad71cb6ba7c07b 322
+  s_16c23c9253290c::t_2ab8a48126daa2 349
+  s_16c23c9253290c::t_8698306f6c4e08 465
+  s_16c23c9253290c::t_0ba8fc942b3359 213
+  s_16c23c9253290c::t_810cd9088a1d4f 354
+  s_16c23c9253290c::t_5579806e37b78f 270
+  s_16c23c9253290c::t_6d74e6249efdf1 147-149
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "d19c6b038d1eb1076822b10c5e119ff40aa9beaa",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_16c23c9253290c": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a72f6283039b2e3bebdcba0",
+        "model": "deepseek-v4-flash"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "external_session_id": "6a72f6283039b2e3bebdcba0",
+        "source_scene": "agent",
+        "tool_type": "builtin",
+        "operation_id": "6a732bf63039b2e3bebdcfd3",
+        "client_type": "ide",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6a732bf63039b2e3bebdcfd3",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "session_id": "6a72f6283039b2e3bebdcba0",
+        "edit_kind": "file_edit",
+        "dedupe_key": "6a72f6283039b2e3bebdcba0:6a732bf63039b2e3bebdcfd3:afterEdit:f57911c6"
+      }
+    }
+  }
+}
