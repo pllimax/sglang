@@ -1,0 +1,39 @@
+.github/workflows/_npu-single-node-test-stage.yml
+  s_ea67edb913463d::t_8999b3996d0539 64
+.github/workflows/nightly-test-npu-e2e-multi-node.yml
+  s_ea67edb913463d::t_099411589b2fe1 70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "781281eb7cd79d7d81dcf79a603a5f1b031d5e4f",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_ea67edb913463d": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a7555f73039b2e3bebddceb",
+        "model": "DeepSeek-V4-Flash-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "operation_id": "6a8820fe47286c9b7c38ac6f",
+        "client_type": "ide",
+        "external_session_id": "6a7555f73039b2e3bebddceb",
+        "runtime_client": "trae-tob-git-ai",
+        "session_id": "6a7555f73039b2e3bebddceb",
+        "tool_use_id": "6a8820fe47286c9b7c38ac6f",
+        "dedupe_key": "6a7555f73039b2e3bebddceb:6a8820fe47286c9b7c38ac6f:afterEdit:cd3309eb",
+        "tool_type": "builtin",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "edit_kind": "file_edit",
+        "source_scene": "agent"
+      }
+    }
+  }
+}

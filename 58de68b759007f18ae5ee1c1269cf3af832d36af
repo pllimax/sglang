@@ -1,14 +1,7 @@
-test/registered/npu/performance/kimi_k2_6/test_npu_kimi_k2_6_w4a8_8p_in3k5_out1k5_20ms.py
-  h_99e327a2058238 56-57
 ---
 {
   "schema_version": "authorship/3.0.0",
   "git_ai_version": "1.6.2",
   "base_commit_sha": "58de68b759007f18ae5ee1c1269cf3af832d36af",
-  "prompts": {},
-  "humans": {
-    "h_99e327a2058238": {
-      "author": "pllimax <pllimax2556769@163.com>"
-    }
-  }
+  "prompts": {}
 }

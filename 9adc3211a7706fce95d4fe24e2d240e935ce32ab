@@ -3,10 +3,5 @@
   "schema_version": "authorship/3.0.0",
   "git_ai_version": "1.6.2",
   "base_commit_sha": "9adc3211a7706fce95d4fe24e2d240e935ce32ab",
-  "prompts": {},
-  "humans": {
-    "h_99e327a2058238": {
-      "author": "pllimax <pllimax2556769@163.com>"
-    }
-  }
+  "prompts": {}
 }

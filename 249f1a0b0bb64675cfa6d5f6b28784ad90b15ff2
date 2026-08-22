@@ -1,37 +1,7 @@
-test/registered/npu/performance/qwen3_6_27b/test_npu_qwen3_6_27b_1p_in64k_out1k_prefix90_50ms.py
-  s_ea67edb913463d::t_e7505fcb562a7c 104
 ---
 {
   "schema_version": "authorship/3.0.0",
   "git_ai_version": "1.6.2",
   "base_commit_sha": "249f1a0b0bb64675cfa6d5f6b28784ad90b15ff2",
-  "prompts": {},
-  "humans": {
-    "h_99e327a2058238": {
-      "author": "pllimax <pllimax2556769@163.com>"
-    }
-  },
-  "sessions": {
-    "s_ea67edb913463d": {
-      "agent_id": {
-        "tool": "trae",
-        "id": "6a7555f73039b2e3bebddceb",
-        "model": "DeepSeek-V4-Flash-Official"
-      },
-      "human_author": "pllimax <pllimax2556769@163.com>",
-      "custom_attributes": {
-        "tool_use_id": "6a8567c547286c9b7c3890fe",
-        "session_id": "6a7555f73039b2e3bebddceb",
-        "client_type": "ide",
-        "source_scene": "agent",
-        "dedupe_key": "6a7555f73039b2e3bebddceb:6a8567c547286c9b7c3890fe:afterEdit:8b01ffcf",
-        "operation_id": "6a8567c547286c9b7c3890fe",
-        "runtime_client": "trae-tob-git-ai",
-        "external_session_id": "6a7555f73039b2e3bebddceb",
-        "tool_id": "icube:applyChatSnapshotPatch",
-        "tool_type": "builtin",
-        "edit_kind": "file_edit"
-      }
-    }
-  }
+  "prompts": {}
 }
