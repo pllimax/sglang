@@ -1,0 +1,24 @@
+python/sglang/test/ascend/e2e/test_npu_performance_utils.py
+  s_e6e55ccd2546b5::t_890773b3ba9ec0 514
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "92aaa4064adf2351baad9600b05c3e530d8d9bba",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_e6e55ccd2546b5": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a8c1c5a47286c9b7c38caae",
+        "model": "DeepSeek-V4-Pro-Official__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>"
+    }
+  }
+}
