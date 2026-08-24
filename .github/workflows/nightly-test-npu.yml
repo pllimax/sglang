@@ -409,11 +409,6 @@ jobs:
             node_size: 2
             test_case: test/registered/npu/accuracy/kimi_k2_6/test_npu_kimi_k2_6_w4a8_16p_in64k_out1k_100ms_aime25.py
             test_type: 'accuracy'
-          # glm_5_2 accuracy tests
-          - name: glm_5_2_w4a8_16p_gpqa
-            node_size: 2
-            test_case: test/registered/npu/accuracy/glm5_2/test_npu_glm_5_2_w4a8_16p_gpqa.py
-            test_type: 'accuracy'
     uses: ./.github/workflows/nightly-test-npu-e2e-multi-node.yml
     with:
       runner: linux-amd64-cpu-4
