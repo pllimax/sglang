@@ -173,6 +173,16 @@ NIGHTLY_SUITES = {
         "full-4-npu-a3",
         "full-8-npu-a3",
         "full-16-npu-a3",
+        # POC single-node suites grouped by card count and test type, dispatched
+        # via _npu-single-node-test-stage.yml from full-test-npu.yml.
+        "full-acc-2-npu-a3",
+        "full-acc-4-npu-a3",
+        "full-acc-8-npu-a3",
+        "full-acc-16-npu-a3",
+        "full-perf-2-npu-a3",
+        "full-perf-4-npu-a3",
+        "full-perf-8-npu-a3",
+        "full-perf-16-npu-a3",
     ],
     HWBackend.XPU: [
         "nightly-xpu-1-gpu",

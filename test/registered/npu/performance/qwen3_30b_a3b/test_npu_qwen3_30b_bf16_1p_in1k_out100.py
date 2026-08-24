@@ -16,6 +16,12 @@ register_npu_ci(
     disabled="performance testcase",
 )
 
+register_npu_ci(
+    est_time=3600,
+    suite="full-perf-2-npu-a3",
+    nightly=True,
+)
+
 ENVS = {
     "ASCEND_LAUNCH_BLOCKING": "0",
     "PYTORCH_NPU_ALLOC_CONF": "expandable_segments:False",

@@ -16,6 +16,12 @@ register_npu_ci(
     disabled="performance testcase",
 )
 
+register_npu_ci(
+    est_time=3600,
+    suite="full-perf-2-npu-a3",
+    nightly=True,
+)
+
 QWEN3_8B_ENVS = {
     "SGLANG_DISAGGREGATION_BOOTSTRAP_TIMEOUT": "600",
     "PYTORCH_NPU_ALLOC_CONF": "expandable_segments:True",

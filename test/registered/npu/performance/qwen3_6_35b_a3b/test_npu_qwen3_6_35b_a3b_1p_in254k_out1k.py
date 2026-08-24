@@ -15,6 +15,12 @@ register_npu_ci(
     disabled="performance testcase",
 )
 
+register_npu_ci(
+    est_time=3600,
+    suite="full-perf-2-npu-a3",
+    nightly=True,
+)
+
 QWEN3_6_35B_A3B_254K_1K_ENVS = {
     "PYTORCH_NPU_ALLOC_CONF": "expandable_segments:True",
     "STREAMS_PER_DEVICE": "32",

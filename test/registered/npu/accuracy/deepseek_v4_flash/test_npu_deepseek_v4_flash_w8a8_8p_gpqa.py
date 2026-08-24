@@ -16,6 +16,12 @@ register_npu_ci(
     disabled="accuracy testcase",
 )
 
+register_npu_ci(
+    est_time=3600,
+    suite="full-acc-16-npu-a3",
+    nightly=True,
+)
+
 # Environment variables for DSV4-Flash single-node PD-mix deployment.
 DEEPSEEK_V4_FLASH_W8A8_8P_ENVS = {
     "PYTORCH_NPU_ALLOC_CONF": "expandable_segments:True",

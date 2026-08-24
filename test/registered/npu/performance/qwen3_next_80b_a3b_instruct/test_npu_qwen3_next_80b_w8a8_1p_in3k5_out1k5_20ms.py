@@ -16,6 +16,12 @@ register_npu_ci(
     disabled="performance testcase",
 )
 
+register_npu_ci(
+    est_time=3600,
+    suite="full-perf-2-npu-a3",
+    nightly=True,
+)
+
 QWEN3_NEXT_80B_A3B_2P_ENVS = {
     "PYTORCH_NPU_ALLOC_CONF": "expandable_segments:True",
     "SGLANG_SET_CPU_AFFINITY": "1",

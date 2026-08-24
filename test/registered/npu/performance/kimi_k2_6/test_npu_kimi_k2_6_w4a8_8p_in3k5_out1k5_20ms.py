@@ -12,6 +12,7 @@ from sglang.test.ci.ci_register import register_npu_ci
 
 register_npu_ci(est_time=1200, suite="base-c-test-perf-16-npu-a3")
 register_npu_ci(est_time=1200, suite="nightly-perf-16-npu-a3", nightly=True)
+register_npu_ci(est_time=1200, suite="full-perf-16-npu-a3", nightly=True)
 
 KIMI_K2_6_ENVS = {
     "PYTORCH_NPU_ALLOC_CONF": "expandable_segments:True",

@@ -15,6 +15,12 @@ register_npu_ci(
     nightly=True,
 )
 
+register_npu_ci(
+    est_time=3600,
+    suite="full-perf-16-npu-a3",
+    nightly=True,
+)
+
 MINIMAX_M2_5_W8A8_8P_IN128K_OUT1K_PREFIX90_20MS_ENVS = {
     "PYTORCH_NPU_ALLOC_CONF": "expandable_segments:True",
     "STREAMS_PER_DEVICE": "32",
