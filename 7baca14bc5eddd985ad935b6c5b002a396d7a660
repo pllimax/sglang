@@ -1,0 +1,51 @@
+python/sglang/test/ascend/e2e/test_npu_performance_utils.py
+  s_ff187ae1157381::t_a755e47f15c148 922,928-929
+  s_ff187ae1157381::t_0cedd1ed790bf4 939,943-945
+.github/workflows/nightly-test-npu.yml
+  s_ff187ae1157381::t_4b95534232104c 366
+  s_ff187ae1157381::t_036238ecf7c43f 190
+  s_ff187ae1157381::t_00c118601d89bc 127
+  s_ff187ae1157381::t_eb7029488dd581 205
+  s_ff187ae1157381::t_a1d1e63bf2c77b 252
+  s_ff187ae1157381::t_45ebab3d885ad8 236
+  s_ff187ae1157381::t_e47dee2665aea4 158
+  s_ff187ae1157381::t_5ad5d129c64209 333
+  s_ff187ae1157381::t_f85bf216d52f7d 220
+  s_ff187ae1157381::t_6941ac3eacfc25 350
+  s_ff187ae1157381::t_80be5f26f95142 382
+  s_ff187ae1157381::t_2e8f33d9889980 444
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "7baca14bc5eddd985ad935b6c5b002a396d7a660",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_ff187ae1157381": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a8ba11c47286c9b7c38ba06",
+        "model": "DeepSeek-V4-Pro-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "operation_id": "6a8bc6d547286c9b7c38bfb4",
+        "tool_type": "builtin",
+        "edit_kind": "file_edit",
+        "runtime_client": "trae-tob-git-ai",
+        "source_scene": "agent",
+        "external_session_id": "6a8ba11c47286c9b7c38ba06",
+        "session_id": "6a8ba11c47286c9b7c38ba06",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "dedupe_key": "6a8ba11c47286c9b7c38ba06:6a8bc6d547286c9b7c38bfb4:afterEdit:2ee7f095",
+        "tool_use_id": "6a8bc6d547286c9b7c38bfb4",
+        "client_type": "ide"
+      }
+    }
+  }
+}
