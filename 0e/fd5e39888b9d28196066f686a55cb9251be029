@@ -1,0 +1,12 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "0efd5e39888b9d28196066f686a55cb9251be029",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  }
+}
