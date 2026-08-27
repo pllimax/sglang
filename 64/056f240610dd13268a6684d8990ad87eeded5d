@@ -1,0 +1,56 @@
+.github/workflows/pr-test-npu.yml
+  s_2006dad77440a2::t_73d4cfb5ff828a 383
+.github/workflows/nightly-test-npu.yml
+  s_2006dad77440a2::t_ec30ba45f7faf8 357
+  s_2006dad77440a2::t_7a40c1ffefebb0 128-129,133-135,139-140
+  s_2006dad77440a2::t_cd9f53fc41a3db 385
+  s_2006dad77440a2::t_aa27eadd99aafa 131-132,136,138,141-142,144
+  s_2006dad77440a2::t_570936c296c63a 417
+  s_2006dad77440a2::t_ecfc8f94d44dc4 114,116,123,126-127
+test/registered/npu/performance/qwen3_32b/test_npu_qwen3_32b_w8a8_2p_in3k5_out1k5_50ms_a2.py
+  s_2006dad77440a2::t_094b2a1f81a242 14
+python/sglang/test/ci/ci_utils.py
+  s_2006dad77440a2::t_a0884508e41ce2 140-153,156,167-168,196-201,216-226,228-232,259,305,311,317,320
+test/run_suite.py
+  s_2006dad77440a2::t_70b9f21abc3e74 388-391,394-395
+  s_2006dad77440a2::t_7b6e97b9f7ce17 421-422,428-468,475-488
+  s_2006dad77440a2::t_99b129eb058bcc 423-427
+  s_2006dad77440a2::t_52009a77cd3f82 469-474
+  s_2006dad77440a2::t_ceacfe31f188c4 187
+  s_2006dad77440a2::t_f00d44a4125957 392-393,396-410,415-416
+  s_2006dad77440a2::t_3ac5eb5ba2284d 4,6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "64056f240610dd13268a6684d8990ad87eeded5d",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_2006dad77440a2": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a799f593039b2e3bebdfee4",
+        "model": "DeepSeek-V4-Flash-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "session_id": "6a799f593039b2e3bebdfee4",
+        "operation_id": "6a79cf053039b2e3bebe02ff",
+        "client_type": "ide",
+        "external_session_id": "6a799f593039b2e3bebdfee4",
+        "edit_kind": "file_edit",
+        "source_scene": "agent",
+        "tool_use_id": "6a79cf053039b2e3bebe02ff",
+        "dedupe_key": "6a799f593039b2e3bebdfee4:6a79cf053039b2e3bebe02ff:afterEdit:bb611868",
+        "tool_type": "builtin",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_id": "icube:applyChatSnapshotPatch"
+      }
+    }
+  }
+}

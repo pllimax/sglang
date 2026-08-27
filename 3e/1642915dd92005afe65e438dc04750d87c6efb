@@ -1,0 +1,33 @@
+.github/workflows/nightly-test-npu.yml
+  s_c0043a3904861d::t_23bf389794f485 352,388-395,414,429-432
+  s_c0043a3904861d::t_cf88cb949de338 433
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "3e1642915dd92005afe65e438dc04750d87c6efb",
+  "prompts": {},
+  "sessions": {
+    "s_c0043a3904861d": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a83bb1747286c9b7c386bbf",
+        "model": "DeepSeek-V4-Flash-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "session_id": "6a83bb1747286c9b7c386bbf",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "runtime_client": "trae-tob-git-ai",
+        "external_session_id": "6a83bb1747286c9b7c386bbf",
+        "dedupe_key": "6a83bb1747286c9b7c386bbf:6a86826e47286c9b7c3899da:afterEdit:a6d72eec",
+        "operation_id": "6a86826e47286c9b7c3899da",
+        "source_scene": "agent",
+        "client_type": "ide",
+        "edit_kind": "file_edit",
+        "tool_type": "builtin",
+        "tool_use_id": "6a86826e47286c9b7c3899da"
+      }
+    }
+  }
+}

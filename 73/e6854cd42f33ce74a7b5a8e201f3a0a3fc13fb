@@ -1,0 +1,51 @@
+.github/workflows/nightly-test-npu.yml
+  s_c0043a3904861d::t_affcf7463a5630 194-198,201
+  s_c0043a3904861d::t_49329b109e7ceb 184
+  s_c0043a3904861d::t_a788b3023fbdf6 209-213,216
+  s_c0043a3904861d::t_d1a9fb828660fb 147-151,154
+  s_c0043a3904861d::t_4b8e6af1d9ab6e 162-166,169
+  s_c0043a3904861d::t_f86333b3176bbc 178-182,186
+test/registered/npu/performance/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_in8k_out1k_50ms.py
+  s_c0043a3904861d::t_d21aede63121a5 11-12
+  h_99e327a2058238 59
+test/registered/npu/performance/kimi_k2_6/test_npu_kimi_k2_6_w4a8_8p_in3k5_out1k5_20ms.py
+  h_99e327a2058238 13-14
+.github/workflows/_npu-pr-test-stage.yml
+  s_c0043a3904861d::t_ae31210314e987 43-46
+  s_c0043a3904861d::t_bd8dfe51a45dbb 216-222,227
+  s_c0043a3904861d::t_e684351bd81342 211
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "73e6854cd42f33ce74a7b5a8e201f3a0a3fc13fb",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_c0043a3904861d": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a83bb1747286c9b7c386bbf",
+        "model": "DeepSeek-V4-Flash-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "operation_id": "6a84227747286c9b7c38723d",
+        "edit_kind": "file_edit",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "tool_type": "builtin",
+        "runtime_client": "trae-tob-git-ai",
+        "dedupe_key": "6a83bb1747286c9b7c386bbf:6a84227747286c9b7c38723d:afterEdit:65d6f327",
+        "tool_use_id": "6a84227747286c9b7c38723d",
+        "source_scene": "agent",
+        "client_type": "ide",
+        "external_session_id": "6a83bb1747286c9b7c386bbf",
+        "session_id": "6a83bb1747286c9b7c386bbf"
+      }
+    }
+  }
+}

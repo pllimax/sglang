@@ -1,0 +1,58 @@
+.github/workflows/nightly-test-npu.yml
+  s_16c23c9253290c::t_0ba8fc942b3359 180
+  s_16c23c9253290c::t_9ddf9673d54e63 263
+  s_16c23c9253290c::t_05bc5e019166cb 378
+  s_16c23c9253290c::t_e4851bd5d5a48b 118-119,128
+  s_16c23c9253290c::t_290ed7553b20ce 280
+  s_16c23c9253290c::t_6d1d15e0a87b6a 196
+  s_16c23c9253290c::t_5fc78385f9a2f2 326
+  s_16c23c9253290c::t_f593d8469fc59d 306
+  s_16c23c9253290c::t_780ab7d96359e2 209
+  s_16c23c9253290c::t_d12aef5f843ba3 298
+  s_16c23c9253290c::t_810cd9088a1d4f 321
+  s_16c23c9253290c::t_2ab8a48126daa2 316
+  s_16c23c9253290c::t_782eeb37d8aaea 254
+  s_16c23c9253290c::t_c00cdda402987d 272
+  s_16c23c9253290c::t_fb050c76390ece 311
+  s_16c23c9253290c::t_8698306f6c4e08 428
+  s_16c23c9253290c::t_5579806e37b78f 237
+  s_16c23c9253290c::t_e26b39261482c6 150
+  s_16c23c9253290c::t_ca4d93ab42df5c 246
+  s_16c23c9253290c::t_ad71cb6ba7c07b 289
+python/sglang/test/ascend/e2e/k8s_single.yaml.jinja2
+  s_16c23c9253290c::t_bcc84ac6a1933a 54-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "c9a1b9b99dcb58bf969e121a7da85b9d5c820e70",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_16c23c9253290c": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a72f6283039b2e3bebdcba0",
+        "model": "deepseek-v4-flash"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "source_scene": "agent",
+        "edit_kind": "file_edit",
+        "operation_id": "6a732bf63039b2e3bebdcfd3",
+        "tool_use_id": "6a732bf63039b2e3bebdcfd3",
+        "dedupe_key": "6a72f6283039b2e3bebdcba0:6a732bf63039b2e3bebdcfd3:afterEdit:f57911c6",
+        "client_type": "ide",
+        "tool_type": "builtin",
+        "external_session_id": "6a72f6283039b2e3bebdcba0",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "session_id": "6a72f6283039b2e3bebdcba0",
+        "runtime_client": "trae-tob-git-ai"
+      }
+    }
+  }
+}
