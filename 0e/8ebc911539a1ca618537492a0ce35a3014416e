@@ -1,0 +1,43 @@
+test/registered/npu/performance/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_in32k_out1k_50ms.py
+  h_99e327a2058238 11
+.github/workflows/pr-test-npu.yml
+  s_dacc1242863ddb::t_7eca8da89934db 296,310,323,336
+  s_dacc1242863ddb::t_05b575f1a5d046 362
+  s_dacc1242863ddb::t_62f3e791473692 375
+  s_dacc1242863ddb::t_cf52a8b76580e5 388
+  s_dacc1242863ddb::t_724e66428540eb 349
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "0e8ebc911539a1ca618537492a0ce35a3014416e",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_dacc1242863ddb": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9001fb7c31c2dececf1126",
+        "model": "DeepSeek-V4-Pro-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "edit_kind": "file_edit",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "dedupe_key": "6a9001fb7c31c2dececf1126:6a9006ff7c31c2dececf124e:afterEdit:6da2b7bd",
+        "session_id": "6a9001fb7c31c2dececf1126",
+        "client_type": "ide",
+        "tool_use_id": "6a9006ff7c31c2dececf124e",
+        "runtime_client": "trae-tob-git-ai",
+        "source_scene": "agent",
+        "external_session_id": "6a9001fb7c31c2dececf1126",
+        "operation_id": "6a9006ff7c31c2dececf124e",
+        "tool_type": "builtin"
+      }
+    }
+  }
+}
