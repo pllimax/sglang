@@ -1,0 +1,36 @@
+.github/workflows/nightly-test-npu.yml
+  s_c2c68b7e2baa7b::t_9a26b2a27520c1 127,143,158,174,190,205,220,236,252,268,286,303,319,335,397,432
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "024ff177e5fd13df0d3ce2496ba0372b35646ded",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_c2c68b7e2baa7b": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9256cfbc1372fdb23ec860",
+        "model": "deepseek_v4_flash_official__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "tool_name": "RunCommand",
+        "display_model_name": "DeepSeek-V4-Flash 正式版",
+        "runtime_client": "trae-tob-git-ai",
+        "operation_id": "6a928860bc1372fdb23eca97",
+        "client_type": "ide",
+        "external_session_id": "6a9256cfbc1372fdb23ec860",
+        "source_scene": "agent",
+        "tool_use_id": "6a928860bc1372fdb23eca97",
+        "session_id": "6a9256cfbc1372fdb23ec860",
+        "edit_kind": "bash"
+      }
+    }
+  }
+}
