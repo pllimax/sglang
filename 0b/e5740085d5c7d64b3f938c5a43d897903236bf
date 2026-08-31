@@ -1,0 +1,64 @@
+.github/workflows/nightly-test-npu-e2e-multi-node.yml
+  s_0a9984fcbeebac::t_4f2a77cf11a0cf 275
+  s_0a9984fcbeebac::t_fe979132d9f8c6 82,143
+  s_0a9984fcbeebac::t_fcce5818269611 138-139,279-280
+  s_0a9984fcbeebac::t_8a14740b0ab365 251,254,259,261-264,268,270,274,276-278,281-283
+  s_0a9984fcbeebac::t_cefddc618268b0 111,118,120-123,127,135-137,140-142
+  s_0a9984fcbeebac::t_564db92be249e4 134
+  s_0a9984fcbeebac::t_4558e9a9ca71af 124-125,265-266
+  s_0a9984fcbeebac::t_02ae10f859a8ea 119
+  s_0a9984fcbeebac::t_e779ec7657c17a 260
+test/registered/npu/accuracy/qwen3_6_27b/test_npu_qwen3_6_27b_1p_gpqa.py
+  s_aae120b29c553c::t_d96a0da4cd7211 21
+  h_99e327a2058238 24
+.github/workflows/nightly-test-npu.yml
+  s_0a9984fcbeebac::t_15476a11f1c77a 125-139,156-169,188-201,203-216,218-232,234-248,250-264,266-281,283-284,291,299-315,317-331,333-347,349-409,411-445,447-472,474-478,480-498,500-508,510-534,536-570,572-576
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "0be5740085d5c7d64b3f938c5a43d897903236bf",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_0a9984fcbeebac": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a952cd1bc1372fdb23ed394",
+        "model": "deepseek_v4_flash_official__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "operation_id": "6a9545e6bc1372fdb23ed649",
+        "client_type": "ide",
+        "source_scene": "agent",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6a9545e6bc1372fdb23ed649",
+        "external_session_id": "6a952cd1bc1372fdb23ed394",
+        "session_id": "6a952cd1bc1372fdb23ed394",
+        "edit_kind": "bash",
+        "display_model_name": "DeepSeek-V4-Flash 正式版",
+        "tool_name": "RunCommand"
+      }
+    },
+    "s_aae120b29c553c": {
+      "agent_id": {
+        "tool": "trae-cue",
+        "id": "ai_tab-icr-83bbfb6f-8689-40d6-801a-fabb36205af7",
+        "model": "default"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "external_session_id": "icr-83bbfb6f-8689-40d6-801a-fabb36205af7",
+        "edit_kind": "file_edit",
+        "source_scene": "cue",
+        "tool": "trae-cue",
+        "client_type": "ide"
+      }
+    }
+  }
+}
