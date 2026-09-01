@@ -1,0 +1,37 @@
+.github/workflows/nightly-test-npu.yml
+  s_2f04f582cb81c7::t_ce733c48af4b36 431
+  s_2f04f582cb81c7::t_2306ff4c9c1487 369
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "e03437584b08fbed079979a1e04975b180e60f87",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_2f04f582cb81c7": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9648e0bc1372fdb23edc1b",
+        "model": "deepseek-v4-flash"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "operation_id": "6a964fa8bc1372fdb23ede0c",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_name": "SearchReplace",
+        "edit_kind": "file_edit",
+        "tool_use_id": "6a964fa8bc1372fdb23ede0c",
+        "session_id": "6a9648e0bc1372fdb23edc1b",
+        "external_session_id": "6a9648e0bc1372fdb23edc1b",
+        "display_model_name": "DeepSeek-V4-Flash",
+        "client_type": "ide",
+        "source_scene": "agent"
+      }
+    }
+  }
+}
