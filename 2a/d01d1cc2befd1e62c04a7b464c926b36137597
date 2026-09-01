@@ -1,0 +1,33 @@
+.github/workflows/nightly-test-npu-e2e-multi-node.yml
+  s_0a9984fcbeebac::t_db96a0b02550ee 148-149
+  s_0a9984fcbeebac::t_7998da0b220647 104,106
+  s_0a9984fcbeebac::t_e917ad0fd633d8 83
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "2ad01d1cc2befd1e62c04a7b464c926b36137597",
+  "prompts": {},
+  "sessions": {
+    "s_0a9984fcbeebac": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a952cd1bc1372fdb23ed394",
+        "model": "deepseek_v4_flash_official__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "edit_kind": "file_edit",
+        "runtime_client": "trae-tob-git-ai",
+        "external_session_id": "6a952cd1bc1372fdb23ed394",
+        "display_model_name": "DeepSeek-V4-Flash 正式版",
+        "tool_name": "Edit",
+        "source_scene": "agent",
+        "operation_id": "6a955bdabc1372fdb23ed8b3",
+        "tool_use_id": "6a955bdabc1372fdb23ed8b3",
+        "client_type": "ide",
+        "session_id": "6a952cd1bc1372fdb23ed394"
+      }
+    }
+  }
+}

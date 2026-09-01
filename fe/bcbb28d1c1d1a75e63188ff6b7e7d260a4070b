@@ -1,0 +1,32 @@
+test/run_suite.py
+  s_41e7a4539b2b6a::t_2a97ae2461aa70 334-336
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "febcbb28d1c1d1a75e63188ff6b7e7d260a4070b",
+  "prompts": {},
+  "sessions": {
+    "s_41e7a4539b2b6a": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a574083f335bf20cf50332c",
+        "model": "DeepSeek-V4-Flash-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "client_type": "ide",
+        "tool_type": "builtin",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "dedupe_key": "6a574083f335bf20cf50332c:6a8fe9ec7c31c2dececf0fdb:afterEdit:0bb09f33",
+        "source_scene": "agent",
+        "session_id": "6a574083f335bf20cf50332c",
+        "operation_id": "6a8fe9ec7c31c2dececf0fdb",
+        "tool_use_id": "6a8fe9ec7c31c2dececf0fdb",
+        "edit_kind": "file_edit",
+        "runtime_client": "trae-tob-git-ai",
+        "external_session_id": "6a574083f335bf20cf50332c"
+      }
+    }
+  }
+}

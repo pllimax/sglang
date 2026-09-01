@@ -1,0 +1,45 @@
+python/sglang/test/ascend/e2e/test_npu_accuracy_utils.py
+  s_ff187ae1157381::t_2037700d7569ee 19
+  s_ff187ae1157381::t_44708e9f0a8801 203,260,267
+python/sglang/test/ascend/e2e/test_npu_multi_node_utils.py
+  s_ff187ae1157381::t_8f74a3b86632e0 1088-1101
+  s_ff187ae1157381::t_a1e2f57c44b9f9 4
+  h_99e327a2058238 1083-1087
+python/sglang/test/ascend/e2e/test_npu_performance_utils.py
+  s_ff187ae1157381::t_407360867f22d6 31
+  s_ff187ae1157381::t_53dfedde268bb1 505,516
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "5acc5c445cbd8608824b8dcf279c43b140ae6fef",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_ff187ae1157381": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a8ba11c47286c9b7c38ba06",
+        "model": "DeepSeek-V4-Pro-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "dedupe_key": "6a8ba11c47286c9b7c38ba06:6a8c133847286c9b7c38c9ee:afterEdit:c7676569",
+        "runtime_client": "trae-tob-git-ai",
+        "source_scene": "agent",
+        "edit_kind": "file_edit",
+        "client_type": "ide",
+        "tool_type": "builtin",
+        "tool_use_id": "6a8c133847286c9b7c38c9ee",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "session_id": "6a8ba11c47286c9b7c38ba06",
+        "operation_id": "6a8c133847286c9b7c38c9ee",
+        "external_session_id": "6a8ba11c47286c9b7c38ba06"
+      }
+    }
+  }
+}

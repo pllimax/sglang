@@ -1,0 +1,38 @@
+test/registered/npu/vlm_models/test_npu_qwen3_asr.py
+  s_41e7a4539b2b6a::t_07b370aee36b1f 120
+.github/workflows/full-test-npu.yml
+  s_41e7a4539b2b6a::t_9b36022da6b42c 103
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "c3a3417c9c314cd712928efec5b46ab0cf074ffd",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_41e7a4539b2b6a": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a574083f335bf20cf50332c",
+        "model": "deepseek_v4_flash_official__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "tool_name": "RunCommand",
+        "display_model_name": "DeepSeek-V4-Flash 正式版",
+        "external_session_id": "6a574083f335bf20cf50332c",
+        "client_type": "ide",
+        "tool_use_id": "6a925055bc1372fdb23ec7bf",
+        "operation_id": "6a925055bc1372fdb23ec7bf",
+        "edit_kind": "bash",
+        "session_id": "6a574083f335bf20cf50332c",
+        "source_scene": "agent",
+        "runtime_client": "trae-tob-git-ai"
+      }
+    }
+  }
+}

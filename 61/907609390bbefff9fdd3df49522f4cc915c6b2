@@ -1,0 +1,58 @@
+test/registered/npu/vlm_models/test_npu_qwen3_omni_30b_a3b_instruct.py
+  s_41e7a4539b2b6a::t_335d3e3be3d58d 454
+  h_99e327a2058238 457,459
+test/registered/npu/rerank_models/test_npu_qwen3_vl_reranker_2b.py
+  s_41e7a4539b2b6a::t_6abfa286836309 141-142
+  s_41e7a4539b2b6a::t_0d06e09a31545f 293
+  s_41e7a4539b2b6a::t_0de0fbbf9b46a5 203
+  s_41e7a4539b2b6a::t_3575b70cfdbe48 282
+  s_41e7a4539b2b6a::t_b1fafaff35b004 315-317
+  s_41e7a4539b2b6a::t_2c00e3df951b5f 187
+  s_41e7a4539b2b6a::t_25c66aafdcee7f 352-353
+  s_41e7a4539b2b6a::t_662d7eb27bfd08 223
+  s_41e7a4539b2b6a::t_600caedd1de870 43-45,60,86,432
+  s_41e7a4539b2b6a::t_34a15f916d549f 331
+test/registered/npu/rerank_models/test_npu_qwen3_reranker_8b.py
+  s_41e7a4539b2b6a::t_18a0d65f9da2b4 132
+  s_41e7a4539b2b6a::t_498a1d10394ab8 32-36
+  s_41e7a4539b2b6a::t_6aa864bfb21f06 116
+  s_41e7a4539b2b6a::t_efe33457bd45d2 152
+  s_41e7a4539b2b6a::t_c3d2edd158325d 72-73
+test/registered/npu/vlm_models/test_npu_qwen3_asr.py
+  s_41e7a4539b2b6a::t_2e38a90b35b535 226
+  s_41e7a4539b2b6a::t_aee91f0abb3dbc 83-86,88-91
+  s_41e7a4539b2b6a::t_2458bbd0d609e9 227-228
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "61907609390bbefff9fdd3df49522f4cc915c6b2",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_41e7a4539b2b6a": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a574083f335bf20cf50332c",
+        "model": "deepseek_v4_flash_official__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "source_scene": "agent",
+        "display_model_name": "DeepSeek-V4-Flash 正式版",
+        "session_id": "6a574083f335bf20cf50332c",
+        "tool_use_id": "6a92a2a7bc1372fdb23ece78",
+        "tool_name": "RunCommand",
+        "edit_kind": "bash",
+        "operation_id": "6a92a2a7bc1372fdb23ece78",
+        "runtime_client": "trae-tob-git-ai",
+        "client_type": "ide",
+        "external_session_id": "6a574083f335bf20cf50332c"
+      }
+    }
+  }
+}
