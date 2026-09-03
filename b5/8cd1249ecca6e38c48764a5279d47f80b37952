@@ -1,0 +1,45 @@
+test/registered/npu/accuracy/qwen3_6_35b_a3b/test_npu_qwen3_6_35b_a3b_1p_in64k_out1k_prefix90_50ms_aime26.py
+  s_2f04f582cb81c7::t_97a1b7025a67d7 15-21
+test/registered/npu/performance/qwen3_235b_a22b/test_npu_qwen3_235b_w8a8_8p_in3k5_out1k5_50ms.py
+  s_2f04f582cb81c7::t_21b1af844a97bb 15-21
+.github/workflows/nightly-test-npu.yml
+  h_99e327a2058238 366-373,375-388,390-403,405-426,428-435,437-444,446-461
+  s_2f04f582cb81c7::t_02db9cf0677627 374,389,404,436,445,462
+  s_2f04f582cb81c7::t_33bc2e726939a8 283-299
+.github/workflows/_npu-pr-test-stage.yml
+  h_99e327a2058238 245-252
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "b58cd1249ecca6e38c48764a5279d47f80b37952",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_2f04f582cb81c7": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9648e0bc1372fdb23edc1b",
+        "model": "deepseek-v4-flash"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "client_type": "ide",
+        "session_id": "6a9648e0bc1372fdb23edc1b",
+        "runtime_client": "trae-tob-git-ai",
+        "dedupe_key": "6a9648e0bc1372fdb23edc1b:6a964d83bc1372fdb23edd8d:afterEdit:7c3284f2",
+        "tool_use_id": "6a964d83bc1372fdb23edd8d",
+        "source_scene": "unknown",
+        "tool_type": "agent",
+        "external_session_id": "6a9648e0bc1372fdb23edc1b",
+        "tool_id": "SearchReplace",
+        "edit_kind": "file_edit",
+        "operation_id": "6a964d83bc1372fdb23edd8d"
+      }
+    }
+  }
+}
