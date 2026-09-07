@@ -1,0 +1,46 @@
+python/sglang/test/ascend/e2e/test_npu_accuracy_utils.py
+  s_65ef12f870f246::t_e7e6c62092d76c 227-231
+  s_65ef12f870f246::t_f4c967d798aed5 307,313
+  s_65ef12f870f246::t_93a5d1d58615e1 226
+  s_65ef12f870f246::t_a1870c6e05f650 110-123,152
+  s_65ef12f870f246::t_859c6bc8fedae6 724
+  s_65ef12f870f246::t_43120a13ce2989 360-367,376-386,388-393,395,403-405
+  s_65ef12f870f246::t_184e7ac24fd14a 8
+  s_65ef12f870f246::t_6ce80809168b37 248-249
+  s_65ef12f870f246::t_5e2be1d8b4728e 124-151
+  s_65ef12f870f246::t_457ccbdebfeffd 243-247
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "ff77d2d904ffff5acc10fd47e32b80ede6a67203",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_65ef12f870f246": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a89675847286c9b7c38b3e0",
+        "model": "DeepSeek-V4-Pro-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "operation_id": "6a8972fa47286c9b7c38b572",
+        "source_scene": "agent",
+        "external_session_id": "6a89675847286c9b7c38b3e0",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "tool_type": "builtin",
+        "runtime_client": "trae-tob-git-ai",
+        "edit_kind": "file_edit",
+        "tool_use_id": "6a8972fa47286c9b7c38b572",
+        "dedupe_key": "6a89675847286c9b7c38b3e0:6a8972fa47286c9b7c38b572:afterEdit:58a48c98",
+        "session_id": "6a89675847286c9b7c38b3e0",
+        "client_type": "ide"
+      }
+    }
+  }
+}

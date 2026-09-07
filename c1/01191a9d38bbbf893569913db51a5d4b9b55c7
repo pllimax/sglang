@@ -1,0 +1,14 @@
+.github/workflows/pr-test-npu.yml
+  h_99e327a2058238 300,313,326,339
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "c101191a9d38bbbf893569913db51a5d4b9b55c7",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  }
+}

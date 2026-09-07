@@ -1,0 +1,56 @@
+.github/workflows/nightly-test-npu.yml
+  s_f0c92bf43a719e::t_e32dffee4f714d 430-561
+  s_f0c92bf43a719e::t_1f44445357debf 125-139,141-154,156-169,172-186,188-201,203-216,218-232,234-248,250-264,266-280
+  s_f0c92bf43a719e::t_c171dd560ec6ca 335,348-378
+  s_f0c92bf43a719e::t_d9c7ee2cefbfb7 397,403-407
+python/sglang/test/ascend/e2e/test_npu_accuracy_utils.py
+  s_f0c92bf43a719e::t_8d2f1fb1751b2c 647
+  s_f0c92bf43a719e::t_fbaa8287a251fd 501-502,504-507
+  s_f0c92bf43a719e::t_d1e5153e681c5d 628-631
+  s_f0c92bf43a719e::t_cc3a18c3bacc19 16
+  s_f0c92bf43a719e::t_d0c72f9b9de23b 290-293,295,303-306,318-324
+  s_f0c92bf43a719e::t_2a81b39734d0ca 282-285,289,307-309,312
+  s_f0c92bf43a719e::t_21b0c969cb6e42 759-762,764-765
+  s_f0c92bf43a719e::t_b6119083435379 737-740
+  s_f0c92bf43a719e::t_0e9a871c7f87c2 286-288,314-317
+  h_99e327a2058238 17,296,325-326
+  s_f0c92bf43a719e::t_1a0f17c1a6fab4 473-476
+  s_f0c92bf43a719e::t_7430f8895efea4 503
+  s_f0c92bf43a719e::t_738221e19c3434 8
+  s_f0c92bf43a719e::t_3d427526c40c21 294,297-302,310-311,313
+  s_f0c92bf43a719e::t_4db8d61ecd0cd5 645-646,648-649
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "825ef83bf34931a49a8f338cbcef9852b900a24c",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_f0c92bf43a719e": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a83cb1647286c9b7c386d62",
+        "model": "DeepSeek-V4-Pro-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "source_scene": "agent",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "tool_type": "builtin",
+        "runtime_client": "trae-tob-git-ai",
+        "external_session_id": "6a83cb1647286c9b7c386d62",
+        "tool_use_id": "6a89333547286c9b7c38b0f8",
+        "operation_id": "6a89333547286c9b7c38b0f8",
+        "edit_kind": "file_edit",
+        "session_id": "6a83cb1647286c9b7c386d62",
+        "dedupe_key": "6a83cb1647286c9b7c386d62:6a89333547286c9b7c38b0f8:afterEdit:a6d72eec",
+        "client_type": "ide"
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+test/registered/npu/vlm_models/test_npu_qwen3_asr.py
+  s_5cff0ecc90922f::t_e1532833a86bbb 55-58
+  h_99e327a2058238 52,59-60,82-89
+  s_5cff0ecc90922f::t_728834dafa8a64 91-94
+  s_5cff0ecc90922f::t_18455a56bfce45 200-203
+test/registered/npu/rerank_models/test_npu_qwen3_vl_reranker_2b.py
+  s_41e7a4539b2b6a::t_2af17050383116 281
+  h_99e327a2058238 280
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "116f937ec11c0d58400472d0be850ff8270f4f9a",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_41e7a4539b2b6a": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a574083f335bf20cf50332c",
+        "model": "DeepSeek-V4-Flash-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "client_type": "ide",
+        "source_scene": "agent",
+        "operation_id": "6a90fcec7c31c2dececf154d",
+        "edit_kind": "file_edit",
+        "tool_type": "builtin",
+        "external_session_id": "6a574083f335bf20cf50332c",
+        "tool_use_id": "6a90fcec7c31c2dececf154d",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "dedupe_key": "6a574083f335bf20cf50332c:6a90fcec7c31c2dececf154d:afterEdit:39617d62",
+        "session_id": "6a574083f335bf20cf50332c",
+        "runtime_client": "trae-tob-git-ai"
+      }
+    },
+    "s_5cff0ecc90922f": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a8faa287c31c2dececf0c69",
+        "model": "DeepSeek-V4-Flash-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "source_scene": "agent",
+        "operation_id": "6a90f6c67c31c2dececf1493",
+        "client_type": "ide",
+        "edit_kind": "file_edit",
+        "tool_use_id": "6a90f6c67c31c2dececf1493",
+        "runtime_client": "trae-tob-git-ai",
+        "session_id": "6a8faa287c31c2dececf0c69",
+        "tool_type": "builtin",
+        "external_session_id": "6a8faa287c31c2dececf0c69",
+        "dedupe_key": "6a8faa287c31c2dececf0c69:6a90f6c67c31c2dececf1493:afterEdit:56b1130a"
+      }
+    }
+  }
+}

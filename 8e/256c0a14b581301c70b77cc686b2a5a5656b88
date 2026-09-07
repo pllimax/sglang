@@ -1,0 +1,43 @@
+.github/workflows/nightly-test-npu.yml
+  s_c0043a3904861d::t_fdbba87d1e14e9 189-203
+  s_c0043a3904861d::t_f503d7e74be2fe 158-171
+  s_c0043a3904861d::t_b7f22ecec6e9d5 125-141
+  s_c0043a3904861d::t_5142907fe8968e 349-401,403-432,434-448,450-455,457-465,467-475
+  s_c0043a3904861d::t_a4e5500b77d7f5 477-478,480-502,504-511,513-517
+test/registered/npu/performance/kimi_k2_6/test_npu_kimi_k2_6_w4a8_8p_in3k5_out1k5_20ms.py
+  s_c0043a3904861d::t_0337ae169b367d 15,57-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "8e256c0a14b581301c70b77cc686b2a5a5656b88",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_c0043a3904861d": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a83bb1747286c9b7c386bbf",
+        "model": "DeepSeek-V4-Flash-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "external_session_id": "6a83bb1747286c9b7c386bbf",
+        "tool_use_id": "6a866ebb47286c9b7c389687",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "edit_kind": "file_edit",
+        "client_type": "ide",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_type": "builtin",
+        "source_scene": "agent",
+        "session_id": "6a83bb1747286c9b7c386bbf",
+        "dedupe_key": "6a83bb1747286c9b7c386bbf:6a866ebb47286c9b7c389687:afterEdit:a6d72eec",
+        "operation_id": "6a866ebb47286c9b7c389687"
+      }
+    }
+  }
+}

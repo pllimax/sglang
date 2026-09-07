@@ -1,0 +1,117 @@
+test/registered/npu/performance/qwen3_6_35b_a3b/test_npu_qwen3_6_35b_a3b_2p_in984k_out1k.py
+  s_f6d1ee353ce311::t_05b521689614b6 18-23
+test/registered/npu/performance/qwen3_6_35b_a3b/test_npu_qwen3_6_35b_a3b_1p_in1024x1024_30_out1024_50ms.py
+  s_f6d1ee353ce311::t_a477f02027d453 18-23
+test/registered/npu/performance/qwen3_235b_a22b/test_npu_qwen3_235b_w8a8_8p_in3k5_out1k5_50ms.py
+  s_f6d1ee353ce311::t_db92c07eb974cc 14
+test/run_suite.py
+  s_f6d1ee353ce311::t_64ed425942e5c1 176-185
+test/registered/npu/performance/qwen3_5_397b/test_npu_qwen3_5_397b_w4a8_8p_in128k_out1k_50ms.py
+  s_f6d1ee353ce311::t_b8bfe856f841c6 18-23
+test/registered/npu/performance/minimax_m2_5/test_npu_minimax_m2_5_w8a8_8p_in128k_out1k_prefix90_20ms.py
+  s_f6d1ee353ce311::t_a9cb3fb87af30b 18-23
+test/registered/npu/performance/qwen3_235b_a22b/test_npu_qwen3_235b_bf16_8p_in11k_out1k5_8ms.py
+  s_f6d1ee353ce311::t_01ba7377e3c1cf 19-24
+test/registered/npu/performance/qwen3_5_397b/test_npu_qwen3_5_397b_w4a8_8p_in128k_out1k_20ms.py
+  s_f6d1ee353ce311::t_32724a788b658a 18-23
+test/registered/npu/performance/qwen3_5_397b/test_npu_qwen3_5_397b_w4a8_8p_in3k5_out1k5_50ms.py
+  s_f6d1ee353ce311::t_0ca9c7cc95413e 13
+test/registered/npu/performance/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_in8k_out1k_50ms.py
+  s_f6d1ee353ce311::t_937abec4b2d76c 12
+test/registered/npu/performance/qwen3_5_397b/test_npu_qwen3_5_397b_w4a8_8p_in3k5_out1k5_20ms.py
+  s_f6d1ee353ce311::t_fc17c2f1a1a457 18-23
+test/registered/npu/performance/deepseek_r1/test_npu_deepseek_r1_w4a8_8p_in3k5_out1k5_50ms.py
+  s_f6d1ee353ce311::t_3026a102c946d0 18-23
+.github/workflows/full-test-npu.yml
+  s_f6d1ee353ce311::t_81577c5959c6c5 118-131
+  s_f6d1ee353ce311::t_00de5d86be1e2d 838
+  s_f6d1ee353ce311::t_5ee91cb54fddd1 507,510-511,513-514,516,519-520,522-523,525-526,528-529
+  s_f6d1ee353ce311::t_90f85dffc89f9e 535
+  s_f6d1ee353ce311::t_16e262ec477769 64,69-72
+  s_f6d1ee353ce311::t_7c5af950969edf 812
+  s_f6d1ee353ce311::t_d3096e2a67c141 531,537-541
+test/registered/npu/performance/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_in32k_out1k_50ms.py
+  s_f6d1ee353ce311::t_94d3b7a9d82be0 12
+test/registered/npu/performance/qwen3-8b/test_npu_qwen3_8b_w8a8_1p_in3k5_out1k5_5ms.py
+  s_f6d1ee353ce311::t_83a46dc0f21125 19-24
+test/registered/npu/performance/qwen3_30b_a3b/test_npu_qwen3_30b_bf16_1p_in1k_out100.py
+  s_f6d1ee353ce311::t_2fccb019ce2d68 19-24
+test/registered/npu/performance/kimi_k2_6/test_npu_kimi_k2_6_w4a8_8p_in3k5_out1k5_50ms.py
+  s_f6d1ee353ce311::t_fbfc4b74fc808d 20-25
+test/registered/npu/accuracy/glm5_2/test_npu_glm_5_2_w4a8_8p_gpqa.py
+  s_f6d1ee353ce311::t_d881d9484bbc66 19-24
+test/registered/npu/performance/qwen3_next_80b_a3b_instruct/test_npu_qwen3_next_80b_w8a8_1p_in3k5_out1k5_20ms.py
+  s_f6d1ee353ce311::t_cba5db98ea413b 19-24
+test/registered/npu/accuracy/qwen3_5_397b/test_npu_qwen3_5_397b_8p_gpqa.py
+  s_f6d1ee353ce311::t_c7a63f2ac7fc1e 19-24
+test/registered/npu/performance/qwen3_6_35b_a3b/test_npu_qwen3_6_35b_a3b_1p_in1080p_30_out256_50ms.py
+  s_f6d1ee353ce311::t_95d10518dd0635 18-23
+test/registered/npu/performance/qwen3_6_35b_a3b/test_npu_qwen3_6_35b_a3b_1p_in254k_out1k.py
+  s_f6d1ee353ce311::t_b15e23c7b54398 18-23
+test/registered/npu/performance/qwen3_30b_a3b/test_npu_qwen3_30b_w8a8_1p_in3k5_out1k5_10ms.py
+  s_f6d1ee353ce311::t_2d4042010314ac 19-24
+test/registered/npu/performance/qwen3_5_397b/test_npu_qwen3_5_397b_w4a8_8p_in128k_out1k_prefix90_50ms.py
+  s_f6d1ee353ce311::t_e95b90f03a0877 17-22
+test/registered/npu/performance/kimi_k2_6/test_npu_kimi_k2_6_w4a8_8p_in3k5_out1k5_20ms.py
+  s_f6d1ee353ce311::t_956c8f4a748e04 15
+test/registered/npu/performance/kimi_k2_6/test_npu_kimi_k2_6_w4a8_8p_in1080p_30_out256_50ms.py
+  s_f6d1ee353ce311::t_aeacda7076033d 21-26
+test/registered/npu/performance/minimax_m2_5/test_npu_minimax_m2_5_w8a8_4p_in32k_out1k_50ms.py
+  s_f6d1ee353ce311::t_5f26134d26f6c1 20-25
+test/registered/npu/performance/qwen3_5_397b/test_npu_qwen3_5_397b_w4a8_8p_in16k_out1k_20ms.py
+  s_f6d1ee353ce311::t_e0266fac337a86 18-23
+test/registered/npu/performance/qwen3_5_397b/test_npu_qwen3_5_397b_w4a8_8p_in64k_out1k_20ms.py
+  s_f6d1ee353ce311::t_abe4af69e04e3f 18-23
+test/registered/npu/accuracy/qwen3_5_397b/test_npu_qwen3_5_397b_8p_aime26.py
+  s_f6d1ee353ce311::t_8ef80a8bc6dd90 19-24
+test/registered/npu/accuracy/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_gpqa.py
+  s_f6d1ee353ce311::t_187b845d0a47d6 19-24
+test/registered/npu/performance/qwen3_5_397b/test_npu_qwen3_5_397b_w4a8_8p_in64k_out1k_prefix90_50ms.py
+  s_f6d1ee353ce311::t_7c104952263d5b 17-22
+test/registered/npu/performance/qwen3_5_397b/test_npu_qwen3_5_397b_w4a8_8p_in64k_out1k_50ms.py
+  s_f6d1ee353ce311::t_ed2ce38fdfa2fa 18-23
+test/registered/npu/performance/qwen3_5_397b/test_npu_qwen3_5_397b_w4a8_8p_in16k_out1k_50ms.py
+  s_f6d1ee353ce311::t_f643bfab62e188 18-23
+test/registered/npu/performance/qwen3_30b_a3b/test_npu_qwen3_30b_w8a8_1p_in6k_out1k5_bs16.py
+  s_f6d1ee353ce311::t_eed567c70e27c1 17-22
+test/registered/npu/performance/kimi_k2_6/test_npu_kimi_k2_6_w4a8_8p_in1024x1024_30_out1024_50ms.py
+  s_f6d1ee353ce311::t_d1ebef1d929f6e 21-26
+test/registered/npu/performance/qwen3_next_80b_a3b_instruct/test_npu_qwen3_next_80b_w8a8_2p_in3k5_out1k5_50ms.py
+  s_f6d1ee353ce311::t_1b0b0a4e837765 19-24
+test/registered/npu/performance/minimax_m2_5/test_npu_minimax_m2_5_w8a8_8p_in3k5_out1k5_20ms.py
+  s_f6d1ee353ce311::t_96f89053270388 20-25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "2daea910b48a9e7e6f7470e435a28114a4ec8783",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_f6d1ee353ce311": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a869ebd47286c9b7c389a6e",
+        "model": "DeepSeek-V4-Flash-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "external_session_id": "6a869ebd47286c9b7c389a6e",
+        "dedupe_key": "6a869ebd47286c9b7c389a6e:6a87b78747286c9b7c38a6db:afterEdit:270a40d8",
+        "session_id": "6a869ebd47286c9b7c389a6e",
+        "operation_id": "6a87b78747286c9b7c38a6db",
+        "client_type": "ide",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "tool_type": "builtin",
+        "tool_use_id": "6a87b78747286c9b7c38a6db",
+        "source_scene": "agent",
+        "edit_kind": "file_edit"
+      }
+    }
+  }
+}

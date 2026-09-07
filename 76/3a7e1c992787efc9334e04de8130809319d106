@@ -1,0 +1,65 @@
+python/sglang/test/ascend/e2e/test_npu_performance_utils.py
+  s_4e153e5928b3c7::t_a9e0012240eaad 543
+  s_e6e55ccd2546b5::t_974375a842a72e 501-503
+  s_4e153e5928b3c7::t_a5f7c70a81ff71 496
+  s_4e153e5928b3c7::t_95e0f3e0c33f6f 495,497
+  s_e6e55ccd2546b5::t_57932e2d70b204 505-510
+  s_e6e55ccd2546b5::t_1443da4e909b8d 209-211
+  h_99e327a2058238 512-514
+  s_4e153e5928b3c7::t_b5787d62fa37b8 525
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "763a7e1c992787efc9334e04de8130809319d106",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_4e153e5928b3c7": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a8c17af47286c9b7c38ca6b",
+        "model": "DeepSeek-V4-Pro-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "external_session_id": "6a8c17af47286c9b7c38ca6b",
+        "tool_use_id": "6a8c450547286c9b7c38cd4c",
+        "session_id": "6a8c17af47286c9b7c38ca6b",
+        "operation_id": "6a8c450547286c9b7c38cd4c",
+        "edit_kind": "file_edit",
+        "tool_type": "builtin",
+        "dedupe_key": "6a8c17af47286c9b7c38ca6b:6a8c450547286c9b7c38cd4c:afterEdit:2ee7f095",
+        "source_scene": "agent",
+        "runtime_client": "trae-tob-git-ai",
+        "client_type": "ide"
+      }
+    },
+    "s_e6e55ccd2546b5": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a8c1c5a47286c9b7c38caae",
+        "model": "DeepSeek-V4-Pro-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "runtime_client": "trae-tob-git-ai",
+        "session_id": "6a8c1c5a47286c9b7c38caae",
+        "client_type": "ide",
+        "tool_use_id": "6a8c48f247286c9b7c38cdfb",
+        "operation_id": "6a8c48f247286c9b7c38cdfb",
+        "external_session_id": "6a8c1c5a47286c9b7c38caae",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "dedupe_key": "6a8c1c5a47286c9b7c38caae:6a8c48f247286c9b7c38cdfb:afterEdit:2ee7f095",
+        "tool_type": "builtin",
+        "source_scene": "agent",
+        "edit_kind": "file_edit"
+      }
+    }
+  }
+}

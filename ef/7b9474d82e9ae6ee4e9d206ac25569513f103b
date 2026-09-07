@@ -1,0 +1,14 @@
+.github/workflows/full-test-npu.yml
+  h_99e327a2058238 107
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "ef7b9474d82e9ae6ee4e9d206ac25569513f103b",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  }
+}

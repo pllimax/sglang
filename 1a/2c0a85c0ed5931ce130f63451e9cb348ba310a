@@ -1,0 +1,14 @@
+.github/workflows/nightly-test-npu.yml
+  h_99e327a2058238 290,307,323
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "1a2c0a85c0ed5931ce130f63451e9cb348ba310a",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  }
+}

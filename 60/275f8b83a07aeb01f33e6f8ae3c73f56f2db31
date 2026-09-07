@@ -1,0 +1,50 @@
+.github/workflows/full-test-npu.yml
+  s_882bdb5eb76860::t_524a69171c5bac 985
+  s_882bdb5eb76860::t_01516a10bd5f2d 614
+  s_882bdb5eb76860::t_ddd1432656c66b 4-9
+  s_882bdb5eb76860::t_4b2e981ce34d66 796-797
+  s_882bdb5eb76860::t_917aeb9c9e7126 751-769,793
+  s_882bdb5eb76860::t_95298627983e61 510,610,628,750,792,794,857-862,864-870,872-878,880-886,888-894
+  s_882bdb5eb76860::t_ecb0f47daf7034 507-509
+  s_882bdb5eb76860::t_402fd34e20f70c 607-609
+  s_882bdb5eb76860::t_c241605d564333 611-613
+  s_882bdb5eb76860::t_0a2d881494ac80 625-627
+  s_882bdb5eb76860::t_3378c833f86053 749
+  s_882bdb5eb76860::t_34c05cd9b93554 791
+  s_882bdb5eb76860::t_e11ce0c1e0dd14 795
+  s_882bdb5eb76860::t_626242f9b5fe95 856
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "60275f8b83a07aeb01f33e6f8ae3c73f56f2db31",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_882bdb5eb76860": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a6c7a61ee51d72cfca26f96",
+        "model": "deepseek-v4-flash"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "tool_use_id": "6a74754d3039b2e3bebdd9a5",
+        "tool_type": "builtin",
+        "source_scene": "agent",
+        "operation_id": "6a74754d3039b2e3bebdd9a5",
+        "client_type": "ide",
+        "edit_kind": "file_edit",
+        "session_id": "6a6c7a61ee51d72cfca26f96",
+        "dedupe_key": "6a6c7a61ee51d72cfca26f96:6a74754d3039b2e3bebdd9a5:afterEdit:8301b9fd",
+        "external_session_id": "6a6c7a61ee51d72cfca26f96",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_id": "icube:applyChatSnapshotPatch"
+      }
+    }
+  }
+}
