@@ -1,0 +1,39 @@
+.github/workflows/full-test-npu.yml
+  s_41e7a4539b2b6a::t_c59187ce22b203 277
+  s_41e7a4539b2b6a::t_a62cd94fa10481 214
+  s_41e7a4539b2b6a::t_a77aada2f41454 88,151
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "4545e7f35f160dc21690086c759d48079825eabb",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_41e7a4539b2b6a": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a574083f335bf20cf50332c",
+        "model": "deepseek-V4-Pro__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "operation_id": "6a996f6bbc1372fdb23ef489",
+        "tool_type": "agent",
+        "dedupe_key": "6a574083f335bf20cf50332c:6a996f6bbc1372fdb23ef489:afterEdit:956547c5",
+        "tool_use_id": "6a996f6bbc1372fdb23ef489",
+        "edit_kind": "file_edit",
+        "source_scene": "unknown",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_id": "Edit",
+        "session_id": "6a574083f335bf20cf50332c",
+        "client_type": "ide",
+        "external_session_id": "6a574083f335bf20cf50332c"
+      }
+    }
+  }
+}
