@@ -1,0 +1,48 @@
+.github/workflows/nightly-test-npu.yml
+  s_7ff977e7352965::t_1db9c0f892a0bd 296-297
+  s_7ff977e7352965::t_0b65a32c9392ef 347-348
+  s_7ff977e7352965::t_28efab11e49842 242-243
+  s_7ff977e7352965::t_aadc601433d786 176-177
+  s_7ff977e7352965::t_7cf663676b91ef 143-144
+  s_7ff977e7352965::t_a4e54d1e1ff7b2 427-428
+  s_7ff977e7352965::t_b08aceb91d9bc2 225-226
+  s_7ff977e7352965::t_879404c6368906 193-194
+  s_7ff977e7352965::t_b4b2c3506a98fe 278-279
+  s_7ff977e7352965::t_6a562dbacf5db3 159-160
+  s_7ff977e7352965::t_9b467daa24369e 259-260
+  s_7ff977e7352965::t_48db62b99f6c36 209-210
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "28b18d86bccd5679185d31f557c928a8fd6944ee",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_7ff977e7352965": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e72fe6802797c0a575e5e",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "operation_id": "6a9eb6c86802797c0a576263",
+        "edit_kind": "file_edit",
+        "tool_id": "Edit",
+        "tool_use_id": "6a9eb6c86802797c0a576263",
+        "dedupe_key": "6a9e72fe6802797c0a575e5e:6a9eb6c86802797c0a576263:afterEdit:bd6a5b13",
+        "source_scene": "unknown",
+        "tool_type": "agent",
+        "client_type": "ide",
+        "runtime_client": "trae-tob-git-ai",
+        "external_session_id": "6a9e72fe6802797c0a575e5e",
+        "session_id": "6a9e72fe6802797c0a575e5e"
+      }
+    }
+  }
+}
