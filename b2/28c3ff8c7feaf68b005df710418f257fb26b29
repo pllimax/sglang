@@ -1,0 +1,52 @@
+python/sglang/test/ascend/npu_eval_accuracy_kit.py
+  s_ea67edb913463d::t_6bd564c5c5da87 47-50,52
+test/registered/npu/basic_function/dp_attn/test_npu_dp_attention.py
+  s_ea67edb913463d::t_f98845b9373f60 87
+  s_ea67edb913463d::t_63d93258e315b6 83-86,88-89
+  s_ea67edb913463d::t_7b735330759f5b 28-33
+  s_ea67edb913463d::t_d8c293faede9d4 26-27
+.github/workflows/nightly-test-npu.yml
+  s_ea67edb913463d::t_4548f9ccdccca2 202-222
+  s_ea67edb913463d::t_b04c6462935b47 127,142,158,174,189,225,241,257,275,292,308,355,386
+test/run_suite.py
+  s_ea67edb913463d::t_32066f3f9e4714 168
+.github/workflows/_npu-pr-test-stage.yml
+  s_ea67edb913463d::t_4492066365b49c 259-260,262
+  s_ea67edb913463d::t_62286173ab199c 258,261
+test/registered/npu/basic_function/backends/test_npu_sampling_backend.py
+  h_99e327a2058238 47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "b228c3ff8c7feaf68b005df710418f257fb26b29",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_ea67edb913463d": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a7555f73039b2e3bebddceb",
+        "model": "deepseek_v4_flash_official__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "operation_id": "6a9f93256802797c0a57666f",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_type": "agent",
+        "source_scene": "unknown",
+        "edit_kind": "file_edit",
+        "tool_use_id": "6a9f93256802797c0a57666f",
+        "tool_id": "Edit",
+        "client_type": "ide",
+        "dedupe_key": "6a7555f73039b2e3bebddceb:6a9f93256802797c0a57666f:afterEdit:08d105f7",
+        "session_id": "6a7555f73039b2e3bebddceb",
+        "external_session_id": "6a7555f73039b2e3bebddceb"
+      }
+    }
+  }
+}
