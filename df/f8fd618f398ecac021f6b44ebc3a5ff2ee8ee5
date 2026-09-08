@@ -1,0 +1,49 @@
+.github/workflows/_npu-single-node-test-stage.yml
+  h_99e327a2058238 348
+.github/workflows/nightly-test-npu.yml
+  s_35665aea7bc9ec::t_1ac860a7a6958d 333
+  s_35665aea7bc9ec::t_4696027e1ba2fc 429-430
+  s_35665aea7bc9ec::t_3cdec6096f20a8 327-332,334-342,346-347
+  s_35665aea7bc9ec::t_fd3382739f2fbb 570-571
+  s_35665aea7bc9ec::t_4782033f6df536 381-382
+  s_35665aea7bc9ec::t_931b4520146443 364-365
+  s_35665aea7bc9ec::t_582e256e8b773a 542
+  s_35665aea7bc9ec::t_9518000f6d1a1c 603-604
+test/registered/npu/accuracy/deepseek_v4_flash/test_npu_deepseek_v4_flash_fp8_4p_gpqa_a5.py
+  s_35665aea7bc9ec::t_38cc468b730a30 1-144
+python/sglang/test/ascend/e2e/test_npu_performance_utils.py
+  h_99e327a2058238 185-187
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "dff8fd618f398ecac021f6b44ebc3a5ff2ee8ee5",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_35665aea7bc9ec": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9fae416802797c0a5767d6",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "source_scene": "agent",
+        "display_model_name": "GLM-5.3-Flash",
+        "session_id": "6a9fae416802797c0a5767d6",
+        "operation_id": "6a9fba226802797c0a57691a",
+        "tool_name": "RunCommand",
+        "tool_use_id": "6a9fba226802797c0a57691a",
+        "runtime_client": "trae-tob-git-ai",
+        "client_type": "ide",
+        "external_session_id": "6a9fae416802797c0a5767d6",
+        "edit_kind": "bash"
+      }
+    }
+  }
+}
