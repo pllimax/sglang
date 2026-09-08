@@ -1,0 +1,16 @@
+python/sglang/test/ascend/e2e/test_npu_performance_utils.py
+  h_99e327a2058238 188-190
+test/registered/npu/accuracy/deepseek_v4_flash/test_npu_deepseek_v4_flash_fp8_4p_gpqa_a5.py
+  h_99e327a2058238 8,125
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "b8baacec66e2a1acb559e2b9871192e64fedf231",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  }
+}
