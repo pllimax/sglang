@@ -1,0 +1,37 @@
+.github/workflows/nightly-test-npu-e2e-multi-node.yml
+  s_2f04f582cb81c7::t_da2c56ec8f0b79 82
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "34818b99d27241019ad3614d3a9e72ea1ea958ab",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_2f04f582cb81c7": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9648e0bc1372fdb23edc1b",
+        "model": "deepseek-v4-flash"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "tool_type": "agent",
+        "runtime_client": "trae-tob-git-ai",
+        "dedupe_key": "6a9648e0bc1372fdb23edc1b:6a965bafbc1372fdb23ede50:afterEdit:b3889c4c",
+        "external_session_id": "6a9648e0bc1372fdb23edc1b",
+        "operation_id": "6a965bafbc1372fdb23ede50",
+        "tool_id": "SearchReplace",
+        "edit_kind": "file_edit",
+        "session_id": "6a9648e0bc1372fdb23edc1b",
+        "tool_use_id": "6a965bafbc1372fdb23ede50",
+        "client_type": "ide",
+        "source_scene": "unknown"
+      }
+    }
+  }
+}

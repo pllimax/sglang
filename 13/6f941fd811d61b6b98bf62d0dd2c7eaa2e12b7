@@ -1,0 +1,38 @@
+test/registered/npu/rerank_models/test_npu_qwen3_vl_reranker_2b.py
+  s_41e7a4539b2b6a::t_05834cd7722c2b 330,341,352,373-381
+  s_41e7a4539b2b6a::t_b75cebd9c61624 291,304-312
+  s_41e7a4539b2b6a::t_43543ad7db83fd 460-465,470
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "136f941fd811d61b6b98bf62d0dd2c7eaa2e12b7",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_41e7a4539b2b6a": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a574083f335bf20cf50332c",
+        "model": "deepseek_v4_flash_official__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "external_session_id": "6a574083f335bf20cf50332c",
+        "edit_kind": "bash",
+        "operation_id": "6a94de67bc1372fdb23ecf34",
+        "display_model_name": "DeepSeek-V4-Flash 正式版",
+        "session_id": "6a574083f335bf20cf50332c",
+        "tool_use_id": "6a94de67bc1372fdb23ecf34",
+        "tool_name": "RunCommand",
+        "source_scene": "agent",
+        "runtime_client": "trae-tob-git-ai",
+        "client_type": "ide"
+      }
+    }
+  }
+}

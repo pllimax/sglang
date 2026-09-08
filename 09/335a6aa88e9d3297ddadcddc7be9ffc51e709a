@@ -1,0 +1,47 @@
+.github/workflows/_npu-single-node-test-stage.yml
+  s_41e7a4539b2b6a::t_62e9d1bc63a552 307
+test/registered/npu/vlm_models/test_npu_qwen3_omni_30b_a3b_instruct.py
+  s_41e7a4539b2b6a::t_995563ffbc61f1 156-318
+  s_41e7a4539b2b6a::t_7a2b32ef320e49 1-155,319-492
+python/sglang/test/ascend/test_ascend_utils.py
+  s_41e7a4539b2b6a::t_b451b0505a25c2 50-51,449-461,474-475,481-485
+test/registered/npu/rerank_models/test_npu_qwen3_reranker_8b.py
+  s_41e7a4539b2b6a::t_b4fd7c3ac8994d 1-187
+test/registered/npu/rerank_models/test_npu_qwen3_vl_reranker_2b.py
+  s_41e7a4539b2b6a::t_3abba227e3f1b4 1-472
+test/registered/npu/vlm_models/test_npu_qwen3_asr.py
+  s_41e7a4539b2b6a::t_e5360001467b5e 1-246
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "09335a6aa88e9d3297ddadcddc7be9ffc51e709a",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_41e7a4539b2b6a": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a574083f335bf20cf50332c",
+        "model": "deepseek-V4-Pro__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "source_scene": "agent",
+        "display_model_name": "DeepSeek-V4-Pro",
+        "tool_use_id": "6a9540f9bc1372fdb23ed608",
+        "client_type": "ide",
+        "tool_name": "RunCommand",
+        "edit_kind": "bash",
+        "external_session_id": "6a574083f335bf20cf50332c",
+        "operation_id": "6a9540f9bc1372fdb23ed608",
+        "session_id": "6a574083f335bf20cf50332c",
+        "runtime_client": "trae-tob-git-ai"
+      }
+    }
+  }
+}

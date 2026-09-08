@@ -1,0 +1,34 @@
+test/registered/npu/performance/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_in32k_out1k_50ms.py
+  s_c2cba26a9f876f::t_21539125255131 11-16
+test/registered/npu/performance/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_in8k_out1k_50ms.py
+  s_c2cba26a9f876f::t_26fdc412b97318 11-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "475ff51c34cfd8529a897847f6ce62d96c9a662e",
+  "prompts": {},
+  "sessions": {
+    "s_c2cba26a9f876f": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a8d53737c31c2dececefef5",
+        "model": "DeepSeek-V4-Pro-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "client_type": "ide",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "session_id": "6a8d53737c31c2dececefef5",
+        "tool_use_id": "6a8f8d847c31c2dececf0a6c",
+        "dedupe_key": "6a8d53737c31c2dececefef5:6a8f8d847c31c2dececf0a6c:afterEdit:40472f0e",
+        "external_session_id": "6a8d53737c31c2dececefef5",
+        "edit_kind": "file_edit",
+        "operation_id": "6a8f8d847c31c2dececf0a6c",
+        "tool_type": "builtin",
+        "runtime_client": "trae-tob-git-ai",
+        "source_scene": "agent"
+      }
+    }
+  }
+}

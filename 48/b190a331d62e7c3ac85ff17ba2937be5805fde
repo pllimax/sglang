@@ -1,0 +1,38 @@
+python/sglang/test/ascend/e2e/test_npu_performance_utils.py
+  s_62fd82266b3582::t_d4fc970e915817 295-298,300-302
+  s_62fd82266b3582::t_67e534f4cba16d 278-279
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "48b190a331d62e7c3ac85ff17ba2937be5805fde",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_62fd82266b3582": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a8d3ad87c31c2dececefa97",
+        "model": "DeepSeek-V4-Pro-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "tool_id": "icube:streaming",
+        "source_scene": "agent",
+        "dedupe_key": "6a8d3ad87c31c2dececefa97:6a8d61977c31c2dececf0053:afterEdit:81263d05",
+        "session_id": "6a8d3ad87c31c2dececefa97",
+        "tool_type": "builtin",
+        "client_type": "ide",
+        "edit_kind": "file_edit",
+        "tool_use_id": "6a8d61977c31c2dececf0053",
+        "external_session_id": "6a8d3ad87c31c2dececefa97",
+        "runtime_client": "trae-tob-git-ai",
+        "operation_id": "6a8d61977c31c2dececf0053"
+      }
+    }
+  }
+}

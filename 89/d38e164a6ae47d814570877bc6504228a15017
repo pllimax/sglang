@@ -1,0 +1,57 @@
+.github/workflows/_npu-single-node-test-stage.yml
+  h_99e327a2058238 307
+.github/workflows/full-test-npu.yml
+  h_99e327a2058238 88,94-96,103-104,111-118,120-128
+test/registered/npu/performance/deepseek_r1/test_npu_deepseek_r1_w4a8_8p_in3k5_out1k5_50ms.py
+  h_99e327a2058238 18-23
+  s_41e7a4539b2b6a::t_58c745cb874656 30-31,59,61,63,68,82,86,93-95,108-109
+test/registered/npu/vlm_models/test_npu_qwen3_asr.py
+  s_41e7a4539b2b6a::t_cb944a4fe3f41a 119-123
+  s_41e7a4539b2b6a::t_0e5297ca406b07 8,93-109,192
+  s_41e7a4539b2b6a::t_f25f53e7a803d0 2
+  s_41e7a4539b2b6a::t_9226e0aad810d4 36-37
+  s_41e7a4539b2b6a::t_89517094e81533 47
+  s_41e7a4539b2b6a::t_5a30a2276b7c03 189-191
+  s_41e7a4539b2b6a::t_20380260b6a66b 114
+  s_41e7a4539b2b6a::t_468f48ba05b7e3 113
+  h_99e327a2058238 193-199,211,215-216,227-235,243-248,252-254
+  s_41e7a4539b2b6a::t_53e5a73ace5491 110
+test/registered/npu/rerank_models/test_npu_qwen3_vl_reranker_2b.py
+  s_41e7a4539b2b6a::t_9c2499cb75dea6 31
+  s_41e7a4539b2b6a::t_cad937f9aee624 342
+  s_41e7a4539b2b6a::t_f83ce7946a9a74 370-374
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "89d38e164a6ae47d814570877bc6504228a15017",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_41e7a4539b2b6a": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a574083f335bf20cf50332c",
+        "model": "DeepSeek-V4-Flash-Official"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "dedupe_key": "6a574083f335bf20cf50332c:6a9242787c31c2dececf21e9:afterEdit:361fa3ad",
+        "source_scene": "agent",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6a9242787c31c2dececf21e9",
+        "external_session_id": "6a574083f335bf20cf50332c",
+        "operation_id": "6a9242787c31c2dececf21e9",
+        "tool_type": "builtin",
+        "session_id": "6a574083f335bf20cf50332c",
+        "client_type": "ide",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "edit_kind": "file_edit"
+      }
+    }
+  }
+}
