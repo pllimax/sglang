@@ -1,0 +1,21 @@
+.github/workflows/nightly-test-npu.yml
+  s_3c7b9b4238e045::t_401ba0d5de9c2f 329-330,347,365-366,382,430,498
+test/registered/npu/accuracy/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_gpqa.py
+  s_3c7b9b4238e045::t_ee8bf2052e16f5 43-45,52-53
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "8d8c1beeec19b4d14a0240ef7fd1623029a3b7c9",
+  "prompts": {},
+  "sessions": {
+    "s_3c7b9b4238e045": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9fd8e26802797c0a576aac",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>"
+    }
+  }
+}
