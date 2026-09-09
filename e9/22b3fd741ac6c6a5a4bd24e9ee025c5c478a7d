@@ -1,0 +1,39 @@
+.github/workflows/nightly-test-npu.yml
+  s_3c7b9b4238e045::t_2d0e996bd693ad 428-431
+  s_3c7b9b4238e045::t_6dbe140a23f6f9 496
+  s_3c7b9b4238e045::t_e4403d5b9f1b70 329-332
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "e922b3fd741ac6c6a5a4bd24e9ee025c5c478a7d",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_3c7b9b4238e045": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9fd8e26802797c0a576aac",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "dedupe_key": "6a9fd8e26802797c0a576aac:6aa0060b6802797c0a576c65:afterEdit:bd6a5b13",
+        "tool_id": "Edit",
+        "edit_kind": "file_edit",
+        "tool_type": "agent",
+        "source_scene": "unknown",
+        "client_type": "ide",
+        "operation_id": "6aa0060b6802797c0a576c65",
+        "session_id": "6a9fd8e26802797c0a576aac",
+        "external_session_id": "6a9fd8e26802797c0a576aac",
+        "tool_use_id": "6aa0060b6802797c0a576c65",
+        "runtime_client": "trae-tob-git-ai"
+      }
+    }
+  }
+}
