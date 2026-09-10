@@ -1,0 +1,64 @@
+test/registered/npu/basic_function/parallel_strategy/expert_parallelism/test_npu_deepep_auto_qwen3_480b.py
+  s_73040e919912f7::t_dfc025bed50f39 68
+test/registered/npu/performance/qwen3_5_397b/test_npu_qwen3_5_397b_w4a8_8p_in3k5_out1k5_50ms.py
+  s_73040e919912f7::t_1d763118fefffa 20
+test/registered/npu/basic_function/parallel_strategy/expert_parallelism/test_npu_expert_distribution_recorder_mode.py
+  s_73040e919912f7::t_e269169ed6ae96 64
+test/registered/npu/basic_function/parallel_strategy/expert_parallelism/test_npu_moe_dense_tp_size.py
+  s_73040e919912f7::t_d40e10de963142 57
+test/registered/npu/basic_function/parallel_strategy/expert_parallelism/test_npu_deepep_auto_qwen3_next.py
+  s_73040e919912f7::t_41fe173f4f5633 69
+test/registered/npu/basic_function/parallel_strategy/expert_parallelism/test_npu_deepep_auto_deepseek_v3_2_w8a8.py
+  s_73040e919912f7::t_fec217312c4a2a 53
+test/registered/npu/basic_function/parallel_strategy/expert_parallelism/test_npu_deepep_low_latency_qwen3_480b.py
+  s_73040e919912f7::t_989f16aff61a9e 69
+test/registered/npu/accuracy/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_gpqa.py
+  s_73040e919912f7::t_5874a6a2c4a234 44
+test/registered/npu/basic_function/parallel_strategy/expert_parallelism/test_npu_eplb_min_rebalancing_utilization_threshold.py
+  s_73040e919912f7::t_58de156161099c 159
+  s_73040e919912f7::t_0976fe02023183 83
+test/registered/npu/performance/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_in32k_out1k_50ms.py
+  s_73040e919912f7::t_055f6c660fa8d4 28
+test/registered/npu/accuracy/glm5_2/test_npu_glm_5_2_w4a8_16p_gpqa.py
+  s_73040e919912f7::t_4b04d23a80b0ce 31
+test/registered/npu/basic_function/parallel_strategy/expert_parallelism/test_npu_deepep_low_latency_qwen3_next.py
+  s_73040e919912f7::t_25d1ae88f34857 73
+test/registered/npu/performance/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_in8k_out1k_50ms.py
+  s_73040e919912f7::t_a03ae3c3ad5fd9 27
+test/registered/npu/basic_function/parallel_strategy/expert_parallelism/test_npu_deepep_low_latency_deepseek_v3_2_w8a8.py
+  s_73040e919912f7::t_847995aad70061 51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "2193833d7afbb551fe024c40848fa5ba13b94aac",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_73040e919912f7": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a7be8553039b2e3bebe0e3d",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "edit_kind": "file_edit",
+        "tool_type": "agent",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6aa12a9e1733c3e0dbf91150",
+        "dedupe_key": "6a7be8553039b2e3bebe0e3d:6aa12a9e1733c3e0dbf91150:afterEdit:19771d9c",
+        "operation_id": "6aa12a9e1733c3e0dbf91150",
+        "session_id": "6a7be8553039b2e3bebe0e3d",
+        "tool_id": "Edit",
+        "external_session_id": "6a7be8553039b2e3bebe0e3d",
+        "source_scene": "unknown",
+        "client_type": "ide"
+      }
+    }
+  }
+}

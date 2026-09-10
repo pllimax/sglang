@@ -1,0 +1,48 @@
+.github/workflows/nightly-test-npu.yml
+  h_99e327a2058238 295-309
+  s_73040e919912f7::t_1ac43660ef82c5 149
+  s_73040e919912f7::t_2c4896d4144a3e 134
+  s_73040e919912f7::t_5952efe391586b 343,345
+python/sglang/test/ascend/e2e/test_npu_performance_utils.py
+  h_99e327a2058238 169
+test/registered/npu/accuracy/glm5_2/test_npu_glm_5_2_w8a8_16p_gpqa.py
+  s_73040e919912f7::t_9561d8d400994d 113
+  s_73040e919912f7::t_ce9427480b6157 96
+  s_73040e919912f7::t_44bc30e0c2ba49 9,20,37,88-91,95,99
+  s_73040e919912f7::t_7247b41930ad64 112
+  s_73040e919912f7::t_a36ecbb6e33a44 59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "6e250c8aecf4cfdb0d460301d9b0c596fb425348",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_73040e919912f7": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a7be8553039b2e3bebe0e3d",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "operation_id": "6aa2609143a9c91104f7b6c3",
+        "runtime_client": "trae-tob-git-ai",
+        "edit_kind": "file_edit",
+        "source_scene": "unknown",
+        "tool_type": "agent",
+        "session_id": "6a7be8553039b2e3bebe0e3d",
+        "dedupe_key": "6a7be8553039b2e3bebe0e3d:6aa2609143a9c91104f7b6c3:afterEdit:08d105f7",
+        "tool_use_id": "6aa2609143a9c91104f7b6c3",
+        "tool_id": "Edit",
+        "client_type": "ide",
+        "external_session_id": "6a7be8553039b2e3bebe0e3d"
+      }
+    }
+  }
+}

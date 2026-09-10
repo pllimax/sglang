@@ -1,0 +1,36 @@
+test/registered/npu/accuracy/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_gpqa.py
+  s_bb5b00e8591568::t_8fcfeaaef99b1d 72
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "5babcf9cb8456b806ebdce0801d066a747387edf",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_bb5b00e8591568": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aa263b443a9c91104f7b6fe",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "operation_id": "6aa275da43a9c91104f7b8c4",
+        "client_type": "ide",
+        "edit_kind": "bash",
+        "source_scene": "agent",
+        "external_session_id": "6aa263b443a9c91104f7b6fe",
+        "session_id": "6aa263b443a9c91104f7b6fe",
+        "display_model_name": "GLM-5.3-Flash",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6aa275da43a9c91104f7b8c4",
+        "tool_name": "RunCommand"
+      }
+    }
+  }
+}
