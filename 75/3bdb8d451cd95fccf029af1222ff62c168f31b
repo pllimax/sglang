@@ -1,0 +1,39 @@
+.github/workflows/nightly-test-npu.yml
+  s_73040e919912f7::t_39fdb8eece6e45 127-128,143-144,160-161,177-178,193-194,209-210,226-227,243-244,259-277,281-282,299-300,316-317,365-366,430-431
+test/registered/npu/performance/qwen3_5_397b/test_npu_qwen3_5_397b_w4a8_8p_in3k5_out1k5_50ms.py
+  s_73040e919912f7::t_3ece9e01269683 13-15
+  h_99e327a2058238 131-132
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "753bdb8d451cd95fccf029af1222ff62c168f31b",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_73040e919912f7": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a7be8553039b2e3bebe0e3d",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "operation_id": "6aa3a72043a9c91104f7bc6f",
+        "source_scene": "agent",
+        "tool_name": "RunCommand",
+        "tool_use_id": "6aa3a72043a9c91104f7bc6f",
+        "edit_kind": "bash",
+        "runtime_client": "trae-tob-git-ai",
+        "external_session_id": "6a7be8553039b2e3bebe0e3d",
+        "display_model_name": "GLM-5.3-Flash",
+        "client_type": "ide",
+        "session_id": "6a7be8553039b2e3bebe0e3d"
+      }
+    }
+  }
+}
