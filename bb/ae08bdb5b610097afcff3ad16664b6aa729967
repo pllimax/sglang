@@ -1,0 +1,63 @@
+test/registered/npu/accuracy/glm5_2/test_npu_glm_5_2_w8a8_16p_gpqa.py
+  s_bb5b00e8591568::t_207b6efec6c358 103-104
+  s_bb5b00e8591568::t_bbe5ecab23df9f 110-111,113-114
+python/sglang/test/ascend/e2e/test_npu_accuracy_utils.py
+  s_bd6290c4803697::t_c49e47684763ec 149-162
+  s_bb5b00e8591568::t_1b876917db757b 597-600
+test/registered/npu/accuracy/deepseek_v4_flash/test_npu_deepseek_v4_flash_0731_w8a8_8p_gpqa.py
+  h_99e327a2058238 22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "bbae08bdb5b610097afcff3ad16664b6aa729967",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_bb5b00e8591568": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aa263b443a9c91104f7b6fe",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "tool_id": "Edit",
+        "edit_kind": "file_edit",
+        "session_id": "6aa263b443a9c91104f7b6fe",
+        "external_session_id": "6aa263b443a9c91104f7b6fe",
+        "runtime_client": "trae-tob-git-ai",
+        "source_scene": "unknown",
+        "dedupe_key": "6aa263b443a9c91104f7b6fe:6aa3af0543a9c91104f7bd2d:afterEdit:1a7e5f56",
+        "client_type": "ide",
+        "tool_use_id": "6aa3af0543a9c91104f7bd2d",
+        "operation_id": "6aa3af0543a9c91104f7bd2d",
+        "tool_type": "agent"
+      }
+    },
+    "s_bd6290c4803697": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aa3afa343a9c91104f7bd31",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "edit_kind": "bash",
+        "tool_use_id": "6aa3b1fb43a9c91104f7bd73",
+        "session_id": "6aa3afa343a9c91104f7bd31",
+        "external_session_id": "6aa3afa343a9c91104f7bd31",
+        "runtime_client": "trae-tob-git-ai",
+        "source_scene": "agent",
+        "operation_id": "6aa3b1fb43a9c91104f7bd73",
+        "display_model_name": "GLM-5.3-Flash",
+        "tool_name": "RunCommand",
+        "client_type": "ide"
+      }
+    }
+  }
+}
