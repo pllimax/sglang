@@ -1,0 +1,46 @@
+test/registered/npu/accuracy/deepseek_v4_flash/test_npu_deepseek_v4_flash_0731_w8a8_8p_gpqa.py
+  h_99e327a2058238 1-163
+.github/workflows/nightly-test-npu.yml
+  s_bb5b00e8591568::t_b2bfafd8039024 467-468
+  s_bb5b00e8591568::t_2ceca9f794c1a1 481-485
+  s_bb5b00e8591568::t_bfc3f68465792f 346-348
+test/registered/npu/accuracy/glm5_2/test_npu_glm_5_2_w8a8_16p_gpqa.py
+  h_99e327a2058238 86-87
+test/registered/npu/accuracy/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_gpqa.py
+  s_bb5b00e8591568::t_973decbe3004aa 22-23
+  s_bb5b00e8591568::t_c8a1062f98ec70 19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "f0abfc666bca8ca47634e861430c20600b5c2764",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_bb5b00e8591568": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aa263b443a9c91104f7b6fe",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "runtime_client": "trae-tob-git-ai",
+        "dedupe_key": "6aa263b443a9c91104f7b6fe:6aa36e0443a9c91104f7b9ea:afterEdit:bd6a5b13",
+        "tool_id": "Edit",
+        "edit_kind": "file_edit",
+        "session_id": "6aa263b443a9c91104f7b6fe",
+        "client_type": "ide",
+        "source_scene": "unknown",
+        "external_session_id": "6aa263b443a9c91104f7b6fe",
+        "tool_use_id": "6aa36e0443a9c91104f7b9ea",
+        "tool_type": "agent",
+        "operation_id": "6aa36e0443a9c91104f7b9ea"
+      }
+    }
+  }
+}

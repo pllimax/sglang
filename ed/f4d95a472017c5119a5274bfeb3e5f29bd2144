@@ -1,0 +1,32 @@
+.github/workflows/full-test-npu.yml
+  s_c5e1838a7c14f0::t_27518096939030 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "edf4d95a472017c5119a5274bfeb3e5f29bd2144",
+  "prompts": {},
+  "sessions": {
+    "s_c5e1838a7c14f0": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e27ee6802797c0a5759a9",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "tool_id": "Edit",
+        "client_type": "ide",
+        "tool_type": "agent",
+        "source_scene": "unknown",
+        "dedupe_key": "6a9e27ee6802797c0a5759a9:6aa277a743a9c91104f7b914:afterEdit:690bebff",
+        "operation_id": "6aa277a743a9c91104f7b914",
+        "external_session_id": "6a9e27ee6802797c0a5759a9",
+        "runtime_client": "trae-tob-git-ai",
+        "edit_kind": "file_edit",
+        "tool_use_id": "6aa277a743a9c91104f7b914",
+        "session_id": "6a9e27ee6802797c0a5759a9"
+      }
+    }
+  }
+}
