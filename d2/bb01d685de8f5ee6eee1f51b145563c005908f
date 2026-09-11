@@ -1,0 +1,36 @@
+.github/workflows/nightly-test-npu.yml
+  s_73040e919912f7::t_4266bac1f4b273 127,142,158,174,189,204,220,242,254,271,287,335,399
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "d2bb01d685de8f5ee6eee1f51b145563c005908f",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_73040e919912f7": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a7be8553039b2e3bebe0e3d",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "source_scene": "agent",
+        "external_session_id": "6a7be8553039b2e3bebe0e3d",
+        "tool_use_id": "6aa3c13343a9c91104f7be11",
+        "edit_kind": "bash",
+        "display_model_name": "GLM-5.3-Flash",
+        "runtime_client": "trae-tob-git-ai",
+        "operation_id": "6aa3c13343a9c91104f7be11",
+        "tool_name": "RunCommand",
+        "client_type": "ide",
+        "session_id": "6a7be8553039b2e3bebe0e3d"
+      }
+    }
+  }
+}
