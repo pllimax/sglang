@@ -1,0 +1,32 @@
+.github/workflows/nightly-test-npu-e2e-single-node.yml
+  s_f2d7ed2f5f7016::t_ce6b771988c42a 245-253
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "27c150219d033334b9690ba5afce088154b836c2",
+  "prompts": {},
+  "sessions": {
+    "s_f2d7ed2f5f7016": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aa3a0e943a9c91104f7bafb",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "dedupe_key": "6aa3a0e943a9c91104f7bafb:6aa4c1dbd8adba1bda5f2a0d:afterEdit:9aff59b8",
+        "external_session_id": "6aa3a0e943a9c91104f7bafb",
+        "tool_type": "agent",
+        "operation_id": "6aa4c1dbd8adba1bda5f2a0d",
+        "client_type": "ide",
+        "tool_id": "Edit",
+        "session_id": "6aa3a0e943a9c91104f7bafb",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6aa4c1dbd8adba1bda5f2a0d",
+        "edit_kind": "file_edit",
+        "source_scene": "unknown"
+      }
+    }
+  }
+}
