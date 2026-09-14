@@ -1,0 +1,50 @@
+.github/workflows/nightly-test-npu.yml
+  s_6422aec02788c9::t_15c1a7a6c593c1 189
+  s_6422aec02788c9::t_ba1d0ffdd261b3 204
+  s_6422aec02788c9::t_d8b7d7fc21d74f 127
+  s_6422aec02788c9::t_7c39422e0492a9 174
+  s_6422aec02788c9::t_76d4ee68513efb 236
+  s_6422aec02788c9::t_561dc83e689930 254
+  s_6422aec02788c9::t_be4a3824460b9a 271
+  s_6422aec02788c9::t_ad35c461ed84a1 220
+  s_6422aec02788c9::t_f01701945f2784 142
+  s_6422aec02788c9::t_8b73b1d6a916cb 158
+  s_6422aec02788c9::t_258d2217f7bd2e 287
+  s_6422aec02788c9::t_e3fd6cfbff3186 343-347
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "4813c274eb52890a0871796c2800683d065a015b",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_6422aec02788c9": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aa7b8b1d8adba1bda5f3c05",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "edit_kind": "bash",
+        "operation_id": "6aa7c323d8adba1bda5f3d09",
+        "tool_use_id": "6aa7c323d8adba1bda5f3d09",
+        "client_type": "ide",
+        "tool_name": "RunCommand",
+        "session_id": "6aa7b8b1d8adba1bda5f3c05",
+        "original_file_count": "1",
+        "external_session_id": "6aa7b8b1d8adba1bda5f3c05",
+        "runtime_client": "trae-tob-git-ai",
+        "included_file_count": "1",
+        "source_scene": "agent",
+        "display_model_name": "GLM-5.3-Flash",
+        "checkpoint_content_bytes": "18981"
+      }
+    }
+  }
+}
