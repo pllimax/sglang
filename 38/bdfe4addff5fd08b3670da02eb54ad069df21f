@@ -1,0 +1,60 @@
+python/sglang/test/ascend/e2e/run_npu_testcase.sh
+  s_6422aec02788c9::t_ca223daa5d3179 9-10
+  s_f277e61ec8ef8a::t_d13b0212145991 113
+  s_6422aec02788c9::t_77109f49f1c768 112
+  s_f277e61ec8ef8a::t_799e806a2076f7 11-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "38bdfe4addff5fd08b3670da02eb54ad069df21f",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_6422aec02788c9": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aa7b8b1d8adba1bda5f3c05",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "client_type": "ide",
+        "session_id": "6aa7b8b1d8adba1bda5f3c05",
+        "operation_id": "6aa7bf63d8adba1bda5f3cc6",
+        "external_session_id": "6aa7b8b1d8adba1bda5f3c05",
+        "tool_id": "Edit",
+        "tool_use_id": "6aa7bf63d8adba1bda5f3cc6",
+        "tool_type": "agent",
+        "edit_kind": "file_edit",
+        "source_scene": "unknown",
+        "dedupe_key": "6aa7b8b1d8adba1bda5f3c05:6aa7bf63d8adba1bda5f3cc6:afterEdit:08d105f7",
+        "runtime_client": "trae-tob-git-ai"
+      }
+    },
+    "s_f277e61ec8ef8a": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aa76586d8adba1bda5f3469",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "session_id": "6aa76586d8adba1bda5f3469",
+        "edit_kind": "file_edit",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_name": "Edit",
+        "external_session_id": "6aa76586d8adba1bda5f3469",
+        "display_model_name": "GLM-5.3-Flash",
+        "operation_id": "6aa78dead8adba1bda5f37b0",
+        "source_scene": "agent",
+        "tool_use_id": "6aa78dead8adba1bda5f37b0",
+        "client_type": "ide"
+      }
+    }
+  }
+}
