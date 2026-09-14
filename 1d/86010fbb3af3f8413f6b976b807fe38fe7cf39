@@ -1,0 +1,57 @@
+test/registered/npu/performance/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_in8k_out1k_50ms.py
+  s_09256f61294b14::t_30803ff847f1cd 119-122
+  s_09256f61294b14::t_1c8139c92fcae5 80,110-111
+  s_09256f61294b14::t_50f24e1043d955 3-5
+  s_09256f61294b14::t_c0cd7d8b8c67e3 72,74,76
+  s_09256f61294b14::t_df0a47cc7e6f50 44-46
+test/registered/npu/performance/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_in32k_out1k_50ms.py
+  s_09256f61294b14::t_e469de5a194679 69,71,73
+  s_09256f61294b14::t_2cd53eeb13f2e8 3-5
+  s_09256f61294b14::t_030e0c4ab02444 116-119
+  s_09256f61294b14::t_31af309dbce34a 77
+test/registered/npu/performance/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_1p1d_16p_in8k_out1k_50ms.py
+  s_09256f61294b14::t_3d5cd3a7702bdc 90-92
+  s_09256f61294b14::t_9d56a143e744fe 46-48
+.github/workflows/nightly-test-npu.yml
+  s_09256f61294b14::t_0633fed4d36cb4 449,452-454
+  s_09256f61294b14::t_dbb2ae2e78f599 451,455
+  s_09256f61294b14::t_cc38b2117e8815 346-347
+python/sglang/test/ascend/e2e/test_npu_performance_utils.py
+  s_09256f61294b14::t_a83ab52f5477e1 1123-1127
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "1d86010fbb3af3f8413f6b976b807fe38fe7cf39",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_09256f61294b14": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aa7c4ebd8adba1bda5f3d1f",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "external_session_id": "6aa7c4ebd8adba1bda5f3d1f",
+        "session_id": "6aa7c4ebd8adba1bda5f3d1f",
+        "tool_name": "RunCommand",
+        "runtime_client": "trae-tob-git-ai",
+        "client_type": "ide",
+        "checkpoint_content_bytes": "859674",
+        "included_file_count": "7",
+        "tool_use_id": "6aa7cbedd8adba1bda5f3e41",
+        "operation_id": "6aa7cbedd8adba1bda5f3e41",
+        "display_model_name": "GLM-5.3-Flash",
+        "edit_kind": "bash",
+        "source_scene": "agent",
+        "original_file_count": "7"
+      }
+    }
+  }
+}
