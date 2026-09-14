@@ -1,0 +1,39 @@
+test/registered/npu/performance/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_in8k_out1k_50ms.py
+  s_f2d7ed2f5f7016::t_33c098851d8ccd 181
+.github/workflows/nightly-test-npu-e2e-single-node.yml
+  s_f2d7ed2f5f7016::t_a426350718f41b 253
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "a6f01b22f897e254891c40196915e40645b505bf",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_f2d7ed2f5f7016": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aa3a0e943a9c91104f7bafb",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "client_type": "ide",
+        "dedupe_key": "6aa3a0e943a9c91104f7bafb:6aa74ff8d8adba1bda5f3066:afterEdit:9aff59b8",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6aa74ff8d8adba1bda5f3066",
+        "operation_id": "6aa74ff8d8adba1bda5f3066",
+        "tool_type": "agent",
+        "source_scene": "unknown",
+        "edit_kind": "file_edit",
+        "session_id": "6aa3a0e943a9c91104f7bafb",
+        "tool_id": "Edit",
+        "external_session_id": "6aa3a0e943a9c91104f7bafb"
+      }
+    }
+  }
+}

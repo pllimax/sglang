@@ -1,0 +1,32 @@
+.github/workflows/nightly-test-npu.yml
+  s_7ff977e7352965::t_2d5a2ae55a8da2 412-414
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "ddd96cbf72876ff4ad0783469197d79a69c1e04a",
+  "prompts": {},
+  "sessions": {
+    "s_7ff977e7352965": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e72fe6802797c0a575e5e",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "operation_id": "6a9f7c6d6802797c0a57636c",
+        "edit_kind": "file_edit",
+        "source_scene": "unknown",
+        "tool_use_id": "6a9f7c6d6802797c0a57636c",
+        "dedupe_key": "6a9e72fe6802797c0a575e5e:6a9f7c6d6802797c0a57636c:afterEdit:bd6a5b13",
+        "external_session_id": "6a9e72fe6802797c0a575e5e",
+        "session_id": "6a9e72fe6802797c0a575e5e",
+        "tool_type": "agent",
+        "runtime_client": "trae-tob-git-ai",
+        "client_type": "ide",
+        "tool_id": "Edit"
+      }
+    }
+  }
+}

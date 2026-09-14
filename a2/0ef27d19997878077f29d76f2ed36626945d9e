@@ -1,0 +1,37 @@
+python/sglang/test/ascend/e2e/run_evalscope.sh
+  s_3c7b9b4238e045::t_aa8318050843db 21-25,28-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "a20ef27d19997878077f29d76f2ed36626945d9e",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_3c7b9b4238e045": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9fd8e26802797c0a576aac",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "runtime_client": "trae-tob-git-ai",
+        "dedupe_key": "6a9fd8e26802797c0a576aac:6aa0d43d1733c3e0dbf90f25:afterEdit:0dad7f8b",
+        "external_session_id": "6a9fd8e26802797c0a576aac",
+        "tool_type": "agent",
+        "source_scene": "unknown",
+        "tool_use_id": "6aa0d43d1733c3e0dbf90f25",
+        "operation_id": "6aa0d43d1733c3e0dbf90f25",
+        "client_type": "ide",
+        "session_id": "6a9fd8e26802797c0a576aac",
+        "edit_kind": "file_edit",
+        "tool_id": "Edit"
+      }
+    }
+  }
+}

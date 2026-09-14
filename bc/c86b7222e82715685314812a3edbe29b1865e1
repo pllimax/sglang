@@ -1,0 +1,47 @@
+python/sglang/test/ascend/e2e/test_npu_accuracy_utils.py
+  s_bd6290c4803697::t_d2a76664098534 164-165
+  s_bd6290c4803697::t_7c7d24880077ed 332,547,654
+  s_bd6290c4803697::t_adb80f573cbca8 149-150
+  s_bd6290c4803697::t_2c299e38e67f48 121
+  s_bd6290c4803697::t_86dd2a3b8665be 517,624,743
+.github/workflows/nightly-test-npu.yml
+  s_bd6290c4803697::t_187d2cc57ce7f8 467-468
+test/registered/npu/accuracy/deepseek_v4_flash/test_npu_deepseek_v4_flash_w8a8_8p_gpqa.py
+  s_bd6290c4803697::t_58141357857d5f 138,141
+  s_bd6290c4803697::t_c9dac4b28e26f0 49-50
+  s_bd6290c4803697::t_2b56ffcfde0c7e 118,122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "bcc86b7222e82715685314812a3edbe29b1865e1",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_bd6290c4803697": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6aa3afa343a9c91104f7bd31",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "tool_use_id": "6aa4be27d8adba1bda5f2981",
+        "session_id": "6aa3afa343a9c91104f7bd31",
+        "dedupe_key": "6aa3afa343a9c91104f7bd31:6aa4be27d8adba1bda5f2981:afterEdit:bd6a5b13",
+        "client_type": "ide",
+        "external_session_id": "6aa3afa343a9c91104f7bd31",
+        "operation_id": "6aa4be27d8adba1bda5f2981",
+        "edit_kind": "file_edit",
+        "tool_id": "Edit",
+        "runtime_client": "trae-tob-git-ai",
+        "source_scene": "unknown",
+        "tool_type": "agent"
+      }
+    }
+  }
+}

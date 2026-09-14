@@ -1,0 +1,37 @@
+.github/workflows/nightly-test-npu.yml
+  s_3c7b9b4238e045::t_2eb7836fb07af3 429-431,434
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "1416a538505d2fa557f8687fb5aee85ca5725616",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_3c7b9b4238e045": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9fd8e26802797c0a576aac",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "tool_use_id": "6aa0080e6802797c0a576c96",
+        "external_session_id": "6a9fd8e26802797c0a576aac",
+        "tool_type": "agent",
+        "client_type": "ide",
+        "operation_id": "6aa0080e6802797c0a576c96",
+        "session_id": "6a9fd8e26802797c0a576aac",
+        "dedupe_key": "6a9fd8e26802797c0a576aac:6aa0080e6802797c0a576c96:afterEdit:bd6a5b13",
+        "source_scene": "unknown",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_id": "Edit",
+        "edit_kind": "file_edit"
+      }
+    }
+  }
+}

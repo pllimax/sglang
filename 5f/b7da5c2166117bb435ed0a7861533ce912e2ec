@@ -1,0 +1,37 @@
+python/sglang/test/ascend/e2e/run_evalscope.sh
+  s_3c7b9b4238e045::t_ad345aca1dcdd3 8-25
+  s_3c7b9b4238e045::t_6b77a78a486889 38-39,42-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "5fb7da5c2166117bb435ed0a7861533ce912e2ec",
+  "prompts": {},
+  "humans": {
+    "h_99e327a2058238": {
+      "author": "pllimax <pllimax2556769@163.com>"
+    }
+  },
+  "sessions": {
+    "s_3c7b9b4238e045": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9fd8e26802797c0a576aac",
+        "model": "glm-5.3-flash__dev"
+      },
+      "human_author": "pllimax <pllimax2556769@163.com>",
+      "custom_attributes": {
+        "external_session_id": "6a9fd8e26802797c0a576aac",
+        "client_type": "ide",
+        "session_id": "6a9fd8e26802797c0a576aac",
+        "display_model_name": "GLM-5.3-Flash",
+        "tool_name": "Edit",
+        "source_scene": "agent",
+        "edit_kind": "file_edit",
+        "operation_id": "6aa0d73f1733c3e0dbf90f51",
+        "tool_use_id": "6aa0d73f1733c3e0dbf90f51",
+        "runtime_client": "trae-tob-git-ai"
+      }
+    }
+  }
+}
